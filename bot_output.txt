@@ -1,0 +1,64 @@
+nohup: ignoring input
+2026-03-01 14:43:49 - root - INFO - ✓ PID file created: /home/roshan/BTC_scalp/bot.pid (PID: 7502)
+2026-03-01 14:43:49 - root - INFO - ✓ Signal handlers configured
+2026-03-01 14:43:49 - root - INFO - ============================================================
+2026-03-01 14:43:49 - root - INFO - Initializing Trading Bot
+2026-03-01 14:43:49 - root - INFO - ============================================================
+2026-03-01 14:43:49 - root - INFO - ✓ Telegram notifier initialized (enabled: True)
+2026-03-01 14:43:49 - binance_api - INFO - Time offset synced: -152ms
+2026-03-01 14:43:49 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-03-01 14:43:49 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-03-01 14:43:49 - root - INFO - ✓ Connected to Binance Live Trading
+2026-03-01 14:43:49 - root - WARNING - ⚠ Running in Live Trading mode
+2026-03-01 14:43:49 - trade_manager - INFO - Trade state loaded from /home/roshan/BTC_scalp/trade_state.json
+2026-03-01 14:43:49 - trade_manager - INFO - RSI reset required: False
+2026-03-01 14:43:49 - root - INFO - ✓ Loaded RSI reset state: False
+2026-03-01 14:43:49 - root - INFO - ✓ Trade Manager initialized
+2026-03-01 14:43:49 - root - INFO -   Single trade size: 0.002 BTC
+2026-03-01 14:43:49 - root - INFO -   Max position size: 0.004 BTC
+2026-03-01 14:43:49 - root - INFO -   Max trades allowed: 2
+2026-03-01 14:43:49 - root - INFO - 
+============================================================
+2026-03-01 14:43:49 - root - INFO - Synchronizing positions with Binance...
+2026-03-01 14:43:49 - root - INFO - ============================================================
+2026-03-01 14:43:50 - binance_api - INFO - Successfully fetched positions - 0 open position(s)
+2026-03-01 14:43:50 - root - INFO - ✓ No open positions on Binance for BTCUSDT
+2026-03-01 14:43:50 - root - INFO - ============================================================
+
+2026-03-01 14:43:50 - binance_api - INFO - Set leverage to 2x for BTCUSDT
+2026-03-01 14:43:50 - root - INFO - ============================================================
+2026-03-01 14:43:50 - root - INFO - Bot initialized successfully!
+2026-03-01 14:43:50 - root - INFO - ============================================================
+2026-03-01 14:43:51 - root - INFO - 
+============================================================
+2026-03-01 14:43:51 - root - INFO - Candle-Close Based Scheduling Activated
+2026-03-01 14:43:51 - root - INFO - Timeframe: 5m
+2026-03-01 14:43:51 - root - INFO - Next check in 68.8 seconds
+2026-03-01 14:43:51 - root - INFO - ============================================================
+2026-03-01 14:43:51 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-03-01 14:45:00 - root - INFO - Checking exit signals at 2026-03-01 14:45:00.616150 (Binance: 2026-03-01 14:45:00.513000)
+2026-03-01 14:45:00 - root - INFO - 
+============================================================
+2026-03-01 14:45:00 - root - INFO - Checking signals at 2026-03-01 14:45:00.897020 (Binance: 2026-03-01 14:45:00.735000)
+2026-03-01 14:45:00 - root - INFO - ============================================================
+2026-03-01 14:45:04 - root - INFO - Position check: 0.0000/0.0040 BTC (0/2 trades)
+2026-03-01 14:45:05 - root - INFO - Klines freshness check: Fresh data (closed 305.4s ago)
+2026-03-01 14:45:05 - root - INFO - Last candle: Bullish=False, RSI=34.11, High=$66618.10
+2026-03-01 14:45:05 - root - INFO - ℹ Last candle not bullish (open $66594.60, close $66577.60)
+2026-03-01 14:45:06 - root - INFO - 
+📊 Status Report at 2026-03-01 14:45:06.135982
+2026-03-01 14:45:06 - root - INFO - Position: 0.0000/0.0040 BTC (0/2 trades)
+2026-03-01 14:45:06 - root - INFO - RSI reset required: False
+2026-03-01 14:45:06 - root - INFO - Closed trades (session): 0
+2026-03-01 14:45:06 - trade_manager - INFO - Trade state saved to /home/roshan/BTC_scalp/trade_state.json
+2026-03-01 14:46:12 - root - INFO - 
+⏹ Received SIGHUP, initiating graceful shutdown...
+2026-03-01 14:46:12 - root - INFO - Scheduler stopped due to shutdown request
+2026-03-01 14:46:12 - root - INFO - 
+⏹ Bot stopped gracefully
+2026-03-01 14:46:12 - root - INFO - Performing cleanup...
+2026-03-01 14:46:12 - trade_manager - INFO - Trade state saved to /home/roshan/BTC_scalp/trade_state.json
+2026-03-01 14:46:12 - root - INFO - ✓ Trade state saved
+2026-03-01 14:46:12 - root - INFO - ✓ PID file removed
+2026-03-01 14:46:12 - root - INFO - ✓ Cleanup complete

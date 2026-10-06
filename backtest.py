@@ -1,0 +1,324 @@
+#!/usr/bin/env python3
+"""
+Backtest the RSI + bullish candle breakout strategy on Binance futures data.
+Updated to match live bot strategy with RSI reset and STOP-LIMIT order simulation.
+"""
+
+import argparse
+from datetime import datetime, timedelta
+from typing import List, Dict
+import logging
+import pandas as pd
+
+from config import (BINANCE_API_KEY, BINANCE_API_SECRET, SYMBOL, TIMEFRAME, 
+                    RSI_PERIOD, RSI_THRESHOLD, RSI_RESET_LEVEL, PROFIT_TARGET,
+                    TRADE_COOLDOWN_HOURS, MACD_TIMEFRAME, MACD_FILTER_ENABLED, ENTRY_BUFFER,
+                    SINGLE_TRADE_SIZE, MAX_POSITION_SIZE)
+from logger import setup_logging
+from binance_api import BinanceAPI
+from strategy import StrategyAnalyzer
+
+logger = setup_logging("backtest.log", "INFO")
+
+
+# Default backtest window (edit these dates as needed)
+DEFAULT_START = "2024-01-01"
+DEFAULT_END = "2024-12-31"
+POSITION_SIZE = 100  # USD per trade
+DEFAULT_CSV = "trades.csv"
+LEVERAGE = 4  # 2x leverage
+
+INTERVAL_MS = {
+    "1m": 60_000,
+    "3m": 180_000,
+    "5m": 300_000,
+    "15m": 900_000,
+    "30m": 1_800_000,
+    "1h": 3_600_000,
+    "2h": 7_200_000,
+    "4h": 14_400_000,
+    "6h": 21_600_000,
+    "8h": 28_800_000,
+    "12h": 43_200_000,
+    "1d": 86_400_000,
+    "1w": 604_800_000,
+}
+
+
+def parse_datetime(value: str) -> datetime:
+    try:
+        return datetime.fromisoformat(value)
+    except ValueError as exc:
+        raise argparse.ArgumentTypeError(f"Invalid datetime format: {value}. Use YYYY-MM-DD or ISO format.") from exc
+
+
+def fetch_klines_range(client: BinanceAPI, symbol: str, interval: str,
+                       start: datetime, end: datetime, limit: int = 1500) -> List:
+    if interval not in INTERVAL_MS:
+        raise ValueError(f"Unsupported interval: {interval}")
+
+    start_ms = int(start.timestamp() * 1000)
+    end_ms = int(end.timestamp() * 1000)
+    step = INTERVAL_MS[interval]
+
+    all_klines: List = []
+    while start_ms < end_ms:
+        batch = client.client.futures_klines(
+            symbol=symbol,
+            interval=interval,
+            startTime=start_ms,
+            endTime=end_ms,
+            limit=limit,
+        )
+        if not batch:
+            break
+        all_klines.extend(batch)
+        last_open_time = batch[-1][0]
+        start_ms = last_open_time + step
+        if len(batch) < limit:
+            break
+
+    return all_klines
+
+
+def backtest(klines: List, threshold: int, profit_target: float, max_trades: int,
+             usd_position_size: float, macd_klines: List = None, 
+             rsi_reset_level: int = 72, entry_buffer: float = 6, rsi_period: int = 14) -> Dict[str, any]:
+    """
+    Backtest strategy matching live bot logic:
+    1. At candle close: check if previous candle was bullish with RSI < threshold
+    2. If yes: place STOP-LIMIT order above bullish high + buffer
+    3. At next candle close: check if order filled, cancel if not
+    4. After trade opens: require RSI to close >= rsi_reset_level before new entries
+    """
+    if len(klines) < 3:
+        return {"error": "Not enough data"}
+
+    df = pd.DataFrame(klines, columns=[
+        'open_time', 'open', 'high', 'low', 'close', 'volume',
+        'close_time', 'quote_volume', 'trades', 'taker_buy_base',
+        'taker_buy_quote', 'ignore'
+    ])
+
+    for col in ['open', 'high', 'low', 'close', 'volume']:
+        df[col] = df[col].astype(float)
+
+    df['rsi'] = StrategyAnalyzer.calculate_rsi(df, period=rsi_period)
+
+    # Calculate MACD from the higher timeframe data if provided
+    macd_df = None
+    if macd_klines:
+        macd_data = pd.DataFrame(macd_klines, columns=[
+            'open_time', 'open', 'high', 'low', 'close', 'volume',
+            'close_time', 'quote_volume', 'trades', 'taker_buy_base',
+            'taker_buy_quote', 'ignore'
+        ])
+        for col in ['open', 'high', 'low', 'close', 'volume']:
+            macd_data[col] = macd_data[col].astype(float)
+        macd_result = StrategyAnalyzer.calculate_macd(macd_data)
+        macd_data['macd'] = macd_result['macd']
+        macd_data['macd_signal'] = macd_result['macd_signal']
+        macd_data['macd_diff'] = macd_result['macd_diff']
+        macd_df = macd_data
+
+    open_trades: List[dict] = []
+    closed_trades: List[dict] = []
+    pending_entry_orders: List[dict] = []  # Track pending STOP-LIMIT orders
+    equity = 0.0
+    equity_curve = []
+    last_entry_time = None
+    rsi_reset_required = False  # Flag: after trade fills, require RSI reset
+
+    for i in range(2, len(df)):
+        current = df.iloc[i]
+        previous = df.iloc[i - 1]
+        current_time = datetime.fromtimestamp(int(current['open_time']) / 1000)
+
+        # 1. Check if RSI reset condition is met (previous candle RSI >= reset level)
+        if rsi_reset_required:
+            previous_rsi = previous['rsi']
+            if not pd.isna(previous_rsi) and previous_rsi >= rsi_reset_level:
+                rsi_reset_required = False
+                logger.debug(f"RSI reset at {current_time}: RSI {previous_rsi:.2f} >= {rsi_reset_level}")
+
+        # 2. Check pending entry orders (STOP-LIMIT simulation)
+        filled_orders = []
+        cancelled_orders = []
+        for order in pending_entry_orders:
+            # Check if price reached stop price during this candle
+            if current['high'] >= order['stop_price']:
+                # Order triggered, check if it filled at limit price
+                if current['high'] >= order['limit_price']:
+                    # Order filled, open position
+                    entry_price = order['limit_price']
+                    quantity = order['quantity']
+                    trade = {
+                        "entry_price": entry_price,
+                        "entry_index": i,
+                        "entry_time": current_time.isoformat(),
+                        "entry_time_ms": int(current['open_time']),
+                        "quantity": quantity,
+                        "status": "OPEN",
+                    }
+                    open_trades.append(trade)
+                    last_entry_time = current_time
+                    rsi_reset_required = True  # Require RSI reset after trade opens
+                    filled_orders.append(order)
+                    logger.debug(f"Entry order filled at {current_time}: ${entry_price:.2f}")
+            else:
+                # Order didn't trigger by next candle, cancel it
+                cancelled_orders.append(order)
+                logger.debug(f"Entry order cancelled at {current_time}: didn't reach ${order['stop_price']:.2f}")
+
+        # Remove filled and cancelled orders
+        pending_entry_orders = [o for o in pending_entry_orders 
+                               if o not in filled_orders and o not in cancelled_orders]
+
+        # 3. Check exits (close only on profit target hit)
+        still_open = []
+        for trade in open_trades:
+            target_price = StrategyAnalyzer.calculate_exit_price(trade['entry_price'], profit_target)
+            trade_entry_time = datetime.fromisoformat(trade['entry_time'])
+            hold_days = (current_time - trade_entry_time).days
+
+            # Close only if profit target hit
+            if current['high'] >= target_price:
+                pnl = (target_price - trade['entry_price']) * trade['quantity']
+                trade.update({
+                    "exit_price": target_price,
+                    "exit_index": i,
+                    "exit_time": current_time.isoformat(),
+                    "pnl": pnl,
+                    "status": "CLOSED",
+                    "hold_time_days": hold_days,
+                    "close_reason": "PROFIT_TARGET",
+                })
+                closed_trades.append(trade)
+                equity += pnl
+                equity_curve.append(equity)
+            else:
+                # Keep trade open
+                still_open.append(trade)
+        open_trades = still_open
+
+        # 4. Entry signal - check if we should place STOP-LIMIT order
+        # Check PREVIOUS candle (the one that just closed)
+        previous_rsi = previous['rsi']
+        if pd.isna(previous_rsi):
+            continue
+
+        # Previous candle conditions
+        previous_rsi_below = previous_rsi < threshold
+        previous_bullish = previous['close'] > previous['open']
+
+        # Check if we can open new trades
+        can_open_new = len(open_trades) < max_trades
+        has_pending_order = len(pending_entry_orders) > 0
+
+        # Check cooldown period
+        cooldown_passed = True
+        if last_entry_time is not None:
+            hours_since_last_entry = (current_time - last_entry_time).total_seconds() / 3600
+            cooldown_passed = hours_since_last_entry >= TRADE_COOLDOWN_HOURS
+
+        # Check MACD filter
+        macd_positive = True
+        if MACD_FILTER_ENABLED and macd_df is not None:
+            previous_time_ms = int(previous['open_time'])
+            macd_row = macd_df[macd_df['open_time'] <= previous_time_ms].tail(1)
+            if not macd_row.empty:
+                macd_value = macd_row.iloc[0]['macd']
+                macd_positive = macd_value > 0 if not pd.isna(macd_value) else False
+
+        # Place STOP-LIMIT order if all conditions met
+        if (previous_rsi_below and previous_bullish and can_open_new and 
+            cooldown_passed and macd_positive and not has_pending_order and not rsi_reset_required):
+            # Place STOP-LIMIT order above previous candle's high
+            stop_price = previous['high'] + entry_buffer
+            limit_price = stop_price + 0.5  # Small buffer for better fill
+            quantity = (usd_position_size * LEVERAGE) / limit_price
+
+            order = {
+                "stop_price": stop_price,
+                "limit_price": limit_price,
+                "quantity": quantity,
+                "placed_time": current_time.isoformat(),
+                "bullish_high": previous['high'],
+            }
+            pending_entry_orders.append(order)
+            logger.debug(f"STOP-LIMIT order placed at {current_time}: Stop ${stop_price:.2f}, Limit ${limit_price:.2f}")
+
+    # Mark remaining open trades
+    for trade in open_trades:
+        trade.update({"status": "OPEN", "exit_price": None, "pnl": 0.0})
+
+    total_trades = len(closed_trades)
+    wins = sum(1 for t in closed_trades if t['pnl'] > 0)
+    win_rate = (wins / total_trades * 100) if total_trades else 0.0
+    total_pnl = sum(t['pnl'] for t in closed_trades)
+    avg_pnl = (total_pnl / total_trades) if total_trades else 0.0
+
+    return {
+        "total_trades": total_trades,
+        "wins": wins,
+        "win_rate": win_rate,
+        "total_pnl": total_pnl,
+        "avg_pnl": avg_pnl,
+        "closed_trades": closed_trades,
+        "open_trades": open_trades,
+    }
+
+
+def main():
+    # Calculate max trades from position size config
+    max_trades_default = int(MAX_POSITION_SIZE / SINGLE_TRADE_SIZE)
+    
+    parser = argparse.ArgumentParser(description="Backtest the BTC scalp strategy")
+    parser.add_argument("--symbol", default=SYMBOL)
+    parser.add_argument("--interval", default=TIMEFRAME)
+    parser.add_argument("--start", type=parse_datetime, default=parse_datetime(DEFAULT_START))
+    parser.add_argument("--end", type=parse_datetime, default=parse_datetime(DEFAULT_END))
+    parser.add_argument("--rsi", type=int, default=RSI_THRESHOLD)
+    parser.add_argument("--rsi-period", type=int, default=RSI_PERIOD, help="RSI calculation period")
+    parser.add_argument("--profit", type=float, default=PROFIT_TARGET)
+    parser.add_argument("--max-trades", type=int, default=max_trades_default)
+    parser.add_argument("--usd-size", type=float, default=POSITION_SIZE, help="Position size in USD per trade")
+    parser.add_argument("--csv", default=DEFAULT_CSV, help="Export closed trades to CSV")
+    args = parser.parse_args()
+
+    client = BinanceAPI(BINANCE_API_KEY, BINANCE_API_SECRET, testnet=False)
+
+    logger.info(f"Fetching {args.symbol} {args.interval} data from {args.start} to {args.end}")
+    klines = fetch_klines_range(client, args.symbol, args.interval, args.start, args.end)
+    if not klines:
+        logger.error("No data fetched")
+        return
+
+    # Fetch MACD timeframe data
+    macd_klines = None
+    if MACD_FILTER_ENABLED:
+        logger.info(f"Fetching {args.symbol} {MACD_TIMEFRAME} MACD data from {args.start} to {args.end}")
+        macd_klines = fetch_klines_range(client, args.symbol, MACD_TIMEFRAME, args.start, args.end)
+        if not macd_klines:
+            logger.warning("No MACD data fetched, proceeding without MACD filter")
+            macd_klines = None
+
+    results = backtest(klines, args.rsi, args.profit, args.max_trades, args.usd_size, macd_klines,
+                      rsi_reset_level=RSI_RESET_LEVEL, entry_buffer=ENTRY_BUFFER, rsi_period=args.rsi_period)
+    if "error" in results:
+        logger.error(results["error"])
+        return
+
+    logger.info("Backtest complete")
+    logger.info(f"Total trades: {results['total_trades']}")
+    logger.info(f"Win rate: {results['win_rate']:.2f}%")
+    logger.info(f"Total PnL: {results['total_pnl']:.6f}")
+    logger.info(f"Avg PnL per trade: {results['avg_pnl']:.6f}")
+
+    df_trades = pd.DataFrame(results['closed_trades'])
+    df_trades.to_csv(args.csv, index=False)
+    logger.info(f"Saved trades to {args.csv}")
+
+
+if __name__ == "__main__":
+    main()

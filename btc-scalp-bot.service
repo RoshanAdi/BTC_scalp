@@ -1,0 +1,36 @@
+[Unit]
+Description=BTC Scalp Trading Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=roshan
+Group=roshan
+WorkingDirectory=/home/roshan/BTC_scalp
+ExecStart=/home/roshan/BTC_scalp/venv/bin/python /home/roshan/BTC_scalp/bot.py
+Restart=on-failure
+RestartSec=30
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+# Environment
+Environment=PYTHONUNBUFFERED=1
+
+# Logging
+StandardOutput=append:/home/roshan/BTC_scalp/bot_stdout.log
+StandardError=append:/home/roshan/BTC_scalp/bot_stderr.log
+
+# Security hardening
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/roshan/BTC_scalp
+
+# Graceful shutdown
+TimeoutStopSec=30
+KillMode=mixed
+KillSignal=SIGTERM
+
+[Install]
+WantedBy=multi-user.target

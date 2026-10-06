@@ -1,0 +1,1832 @@
+2026-02-21 14:26:48 - root - INFO - ============================================================
+2026-02-21 14:26:48 - root - INFO - Initializing Trading Bot
+2026-02-21 14:26:48 - root - INFO - ============================================================
+2026-02-21 14:26:49 - binance_api - INFO - Connected to Binance Testnet
+2026-02-21 14:26:49 - root - INFO - ✓ Connected to Binance Demo (Testnet)
+2026-02-21 14:26:49 - root - WARNING - ⚠ Running in Demo (Testnet) mode
+2026-02-21 14:26:49 - trade_manager - INFO - No previous trade state found at trade_state.json
+2026-02-21 14:26:49 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 14:26:49 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 14:26:49 - root - WARNING - Could not set leverage to 2x
+2026-02-21 14:26:49 - root - INFO - ============================================================
+2026-02-21 14:26:49 - root - INFO - Bot initialized successfully!
+2026-02-21 14:26:49 - root - INFO - ============================================================
+2026-02-21 14:26:49 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 14:26:49 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 14:32:54 - root - INFO - ============================================================
+2026-02-21 14:32:54 - root - INFO - Initializing Trading Bot
+2026-02-21 14:32:54 - root - INFO - ============================================================
+2026-02-21 14:32:55 - binance_api - INFO - Connected to Binance Mainnet
+2026-02-21 14:32:55 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-21 14:32:55 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-21 14:32:55 - trade_manager - INFO - No previous trade state found at trade_state.json
+2026-02-21 14:32:55 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 14:32:55 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 14:32:55 - root - WARNING - Could not set leverage to 2x
+2026-02-21 14:32:55 - root - INFO - ============================================================
+2026-02-21 14:32:55 - root - INFO - Bot initialized successfully!
+2026-02-21 14:32:55 - root - INFO - ============================================================
+2026-02-21 14:32:55 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 14:32:55 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 19:30:28 - root - INFO - ============================================================
+2026-02-21 19:30:28 - root - INFO - Initializing Trading Bot
+2026-02-21 19:30:28 - root - INFO - ============================================================
+2026-02-21 19:30:29 - binance_api - INFO - Connected to Binance Mainnet
+2026-02-21 19:30:29 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-21 19:30:29 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-21 19:30:29 - trade_manager - INFO - No previous trade state found at trade_state.json
+2026-02-21 19:30:29 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 19:30:29 - root - INFO - 
+============================================================
+2026-02-21 19:30:29 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 19:30:29 - root - INFO - ============================================================
+2026-02-21 19:30:30 - binance_api - ERROR - Error fetching positions: APIError(code=0): Invalid JSON error message from Binance: <!DOCTYPE html>
+<!-- saved from url=(0032)https://www.binance.com/en/error -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="format-detection" content="telephone=no,email=no,address=no">
+  <title>Binance</title>
+  <link rel="Shortcut Icon" href="https://www.binance.com/en/favicon.ico">
+  <style>
+    body {
+      margin: 0
+    }
+
+    .img {
+      width: 611px;
+      margin: 68px auto 0
+    }
+
+    .info {
+      width: 370px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: Arial;
+    }
+
+    .info h3 {
+      margin: 0;
+      font-size: 25px;
+      color: #333;
+      font-weight: normal;
+    }
+
+    .info p {
+      font-size: 14px;
+      font-family: Arial;
+      color: #333;
+      line-height: 18px;
+      margin: 0
+    }
+
+    .info button {
+      margin-top: 20px;
+      width: 231px;
+      height: 34px;
+      background: #FFFFFF;
+      border: 1px solid #F0B90B;
+      box-sizing: border-box;
+      border-radius: 3px;
+      font-size: 14px;
+      line-height: 16px;
+      color: #F0B90B;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="img"><img alt="" src="/errorPages/404.jpg"></div>
+  <div class="info">
+    <h3>åºéå¦ï¼æ¨è®¿é®çç½é¡µä¸å­å¨ã</h3>
+    <p>Sorry! The page youâre looking for cannot be found.</p>
+    <a href="https://www.binance.com">
+      <button>Return to Binance home page</button>
+    </a>
+  </div>
+
+</body>
+
+</html>
+
+2026-02-21 19:30:30 - root - WARNING - ⚠ Could not fetch positions from Binance
+2026-02-21 19:30:30 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 19:30:30 - root - WARNING - Could not set leverage to 2x
+2026-02-21 19:30:30 - root - INFO - ============================================================
+2026-02-21 19:30:30 - root - INFO - Bot initialized successfully!
+2026-02-21 19:30:30 - root - INFO - ============================================================
+2026-02-21 19:30:30 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 19:30:30 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 19:30:31 - root - INFO - 
+⏹ Bot stopped by user
+2026-02-21 19:30:31 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 19:30:31 - root - INFO - Trade state saved
+2026-02-21 19:30:58 - root - INFO - ============================================================
+2026-02-21 19:30:58 - root - INFO - Initializing Trading Bot
+2026-02-21 19:30:58 - root - INFO - ============================================================
+2026-02-21 19:30:58 - binance_api - INFO - Connected to Binance Mainnet
+2026-02-21 19:30:58 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-21 19:30:58 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-21 19:30:58 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 19:30:58 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 19:30:58 - root - INFO - 
+============================================================
+2026-02-21 19:30:58 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 19:30:58 - root - INFO - ============================================================
+2026-02-21 19:30:59 - binance_api - ERROR - Error fetching positions: APIError(code=0): Invalid JSON error message from Binance: <!DOCTYPE html>
+<!-- saved from url=(0032)https://www.binance.com/en/error -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="format-detection" content="telephone=no,email=no,address=no">
+  <title>Binance</title>
+  <link rel="Shortcut Icon" href="https://www.binance.com/en/favicon.ico">
+  <style>
+    body {
+      margin: 0
+    }
+
+    .img {
+      width: 611px;
+      margin: 68px auto 0
+    }
+
+    .info {
+      width: 370px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: Arial;
+    }
+
+    .info h3 {
+      margin: 0;
+      font-size: 25px;
+      color: #333;
+      font-weight: normal;
+    }
+
+    .info p {
+      font-size: 14px;
+      font-family: Arial;
+      color: #333;
+      line-height: 18px;
+      margin: 0
+    }
+
+    .info button {
+      margin-top: 20px;
+      width: 231px;
+      height: 34px;
+      background: #FFFFFF;
+      border: 1px solid #F0B90B;
+      box-sizing: border-box;
+      border-radius: 3px;
+      font-size: 14px;
+      line-height: 16px;
+      color: #F0B90B;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="img"><img alt="" src="/errorPages/404.jpg"></div>
+  <div class="info">
+    <h3>åºéå¦ï¼æ¨è®¿é®çç½é¡µä¸å­å¨ã</h3>
+    <p>Sorry! The page youâre looking for cannot be found.</p>
+    <a href="https://www.binance.com">
+      <button>Return to Binance home page</button>
+    </a>
+  </div>
+
+</body>
+
+</html>
+
+2026-02-21 19:30:59 - root - WARNING - ⚠ Could not fetch positions from Binance
+2026-02-21 19:30:59 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 19:30:59 - root - WARNING - Could not set leverage to 2x
+2026-02-21 19:30:59 - root - INFO - ============================================================
+2026-02-21 19:30:59 - root - INFO - Bot initialized successfully!
+2026-02-21 19:30:59 - root - INFO - ============================================================
+2026-02-21 19:30:59 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 19:30:59 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 19:31:56 - root - INFO - ============================================================
+2026-02-21 19:31:56 - root - INFO - Initializing Trading Bot
+2026-02-21 19:31:56 - root - INFO - ============================================================
+2026-02-21 19:31:57 - binance_api - INFO - Connected to Binance Mainnet
+2026-02-21 19:31:57 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-21 19:31:57 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-21 19:31:57 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 19:31:57 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 19:31:57 - root - INFO - 
+============================================================
+2026-02-21 19:31:57 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 19:31:57 - root - INFO - ============================================================
+2026-02-21 19:31:58 - binance_api - ERROR - Error fetching positions: APIError(code=0): Invalid JSON error message from Binance: <!DOCTYPE html>
+<!-- saved from url=(0032)https://www.binance.com/en/error -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="format-detection" content="telephone=no,email=no,address=no">
+  <title>Binance</title>
+  <link rel="Shortcut Icon" href="https://www.binance.com/en/favicon.ico">
+  <style>
+    body {
+      margin: 0
+    }
+
+    .img {
+      width: 611px;
+      margin: 68px auto 0
+    }
+
+    .info {
+      width: 370px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: Arial;
+    }
+
+    .info h3 {
+      margin: 0;
+      font-size: 25px;
+      color: #333;
+      font-weight: normal;
+    }
+
+    .info p {
+      font-size: 14px;
+      font-family: Arial;
+      color: #333;
+      line-height: 18px;
+      margin: 0
+    }
+
+    .info button {
+      margin-top: 20px;
+      width: 231px;
+      height: 34px;
+      background: #FFFFFF;
+      border: 1px solid #F0B90B;
+      box-sizing: border-box;
+      border-radius: 3px;
+      font-size: 14px;
+      line-height: 16px;
+      color: #F0B90B;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="img"><img alt="" src="/errorPages/404.jpg"></div>
+  <div class="info">
+    <h3>åºéå¦ï¼æ¨è®¿é®çç½é¡µä¸å­å¨ã</h3>
+    <p>Sorry! The page youâre looking for cannot be found.</p>
+    <a href="https://www.binance.com">
+      <button>Return to Binance home page</button>
+    </a>
+  </div>
+
+</body>
+
+</html>
+
+2026-02-21 19:31:58 - root - WARNING - ⚠ Could not fetch positions from Binance
+2026-02-21 19:31:58 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 19:31:58 - root - WARNING - Could not set leverage to 2x
+2026-02-21 19:31:58 - root - INFO - ============================================================
+2026-02-21 19:31:58 - root - INFO - Bot initialized successfully!
+2026-02-21 19:31:58 - root - INFO - ============================================================
+2026-02-21 19:31:58 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 19:31:58 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 19:33:24 - root - INFO - ============================================================
+2026-02-21 19:33:24 - root - INFO - Initializing Trading Bot
+2026-02-21 19:33:24 - root - INFO - ============================================================
+2026-02-21 19:33:25 - binance_api - INFO - Connected to Binance Mainnet
+2026-02-21 19:33:25 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-21 19:33:25 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-21 19:33:25 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 19:33:25 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 19:33:25 - root - INFO - 
+============================================================
+2026-02-21 19:33:25 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 19:33:25 - root - INFO - ============================================================
+2026-02-21 19:33:26 - binance_api - ERROR - Error fetching positions: APIError(code=0): Invalid JSON error message from Binance: <!DOCTYPE html>
+<!-- saved from url=(0032)https://www.binance.com/en/error -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="format-detection" content="telephone=no,email=no,address=no">
+  <title>Binance</title>
+  <link rel="Shortcut Icon" href="https://www.binance.com/en/favicon.ico">
+  <style>
+    body {
+      margin: 0
+    }
+
+    .img {
+      width: 611px;
+      margin: 68px auto 0
+    }
+
+    .info {
+      width: 370px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: Arial;
+    }
+
+    .info h3 {
+      margin: 0;
+      font-size: 25px;
+      color: #333;
+      font-weight: normal;
+    }
+
+    .info p {
+      font-size: 14px;
+      font-family: Arial;
+      color: #333;
+      line-height: 18px;
+      margin: 0
+    }
+
+    .info button {
+      margin-top: 20px;
+      width: 231px;
+      height: 34px;
+      background: #FFFFFF;
+      border: 1px solid #F0B90B;
+      box-sizing: border-box;
+      border-radius: 3px;
+      font-size: 14px;
+      line-height: 16px;
+      color: #F0B90B;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="img"><img alt="" src="/errorPages/404.jpg"></div>
+  <div class="info">
+    <h3>åºéå¦ï¼æ¨è®¿é®çç½é¡µä¸å­å¨ã</h3>
+    <p>Sorry! The page youâre looking for cannot be found.</p>
+    <a href="https://www.binance.com">
+      <button>Return to Binance home page</button>
+    </a>
+  </div>
+
+</body>
+
+</html>
+
+2026-02-21 19:33:26 - root - WARNING - ⚠ Could not fetch positions from Binance
+2026-02-21 19:33:26 - root - WARNING - ⚠ Position sync failed - bot may not recover from crashes properly
+2026-02-21 19:33:26 - root - INFO - ============================================================
+
+2026-02-21 19:33:26 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 19:33:26 - root - WARNING - Could not set leverage to 2x
+2026-02-21 19:33:26 - root - INFO - ============================================================
+2026-02-21 19:33:26 - root - INFO - Bot initialized successfully!
+2026-02-21 19:33:26 - root - INFO - ============================================================
+2026-02-21 19:33:26 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 19:33:26 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 19:33:38 - root - INFO - ============================================================
+2026-02-21 19:33:38 - root - INFO - Initializing Trading Bot
+2026-02-21 19:33:38 - root - INFO - ============================================================
+2026-02-21 19:33:38 - binance_api - INFO - Connected to Binance Mainnet
+2026-02-21 19:33:38 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-21 19:33:38 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-21 19:33:38 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 19:33:38 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 19:33:38 - root - INFO - 
+============================================================
+2026-02-21 19:33:38 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 19:33:38 - root - INFO - ============================================================
+2026-02-21 19:33:39 - binance_api - ERROR - Error fetching positions: APIError(code=0): Invalid JSON error message from Binance: <!DOCTYPE html>
+<!-- saved from url=(0032)https://www.binance.com/en/error -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="format-detection" content="telephone=no,email=no,address=no">
+  <title>Binance</title>
+  <link rel="Shortcut Icon" href="https://www.binance.com/en/favicon.ico">
+  <style>
+    body {
+      margin: 0
+    }
+
+    .img {
+      width: 611px;
+      margin: 68px auto 0
+    }
+
+    .info {
+      width: 370px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: Arial;
+    }
+
+    .info h3 {
+      margin: 0;
+      font-size: 25px;
+      color: #333;
+      font-weight: normal;
+    }
+
+    .info p {
+      font-size: 14px;
+      font-family: Arial;
+      color: #333;
+      line-height: 18px;
+      margin: 0
+    }
+
+    .info button {
+      margin-top: 20px;
+      width: 231px;
+      height: 34px;
+      background: #FFFFFF;
+      border: 1px solid #F0B90B;
+      box-sizing: border-box;
+      border-radius: 3px;
+      font-size: 14px;
+      line-height: 16px;
+      color: #F0B90B;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="img"><img alt="" src="/errorPages/404.jpg"></div>
+  <div class="info">
+    <h3>åºéå¦ï¼æ¨è®¿é®çç½é¡µä¸å­å¨ã</h3>
+    <p>Sorry! The page youâre looking for cannot be found.</p>
+    <a href="https://www.binance.com">
+      <button>Return to Binance home page</button>
+    </a>
+  </div>
+
+</body>
+
+</html>
+
+2026-02-21 19:33:39 - root - WARNING - ⚠ Could not fetch positions from Binance
+2026-02-21 19:33:39 - root - WARNING - ⚠ Position sync failed - bot may not recover from crashes properly
+2026-02-21 19:33:39 - root - INFO - ============================================================
+
+2026-02-21 19:33:39 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 19:33:39 - root - WARNING - Could not set leverage to 2x
+2026-02-21 19:33:39 - root - INFO - ============================================================
+2026-02-21 19:33:39 - root - INFO - Bot initialized successfully!
+2026-02-21 19:33:39 - root - INFO - ============================================================
+2026-02-21 19:33:39 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 19:33:39 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 19:35:32 - root - INFO - ============================================================
+2026-02-21 19:35:32 - root - INFO - Initializing Trading Bot
+2026-02-21 19:35:32 - root - INFO - ============================================================
+2026-02-21 19:35:33 - binance_api - INFO - Connected to Binance Mainnet
+2026-02-21 19:35:33 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-21 19:35:33 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-21 19:35:33 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 19:35:33 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 19:35:33 - root - INFO - 
+============================================================
+2026-02-21 19:35:33 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 19:35:33 - root - INFO - ============================================================
+2026-02-21 19:35:33 - binance_api - ERROR - Error fetching positions: APIError(code=0): Invalid JSON error message from Binance: <!DOCTYPE html>
+<!-- saved from url=(0032)https://www.binance.com/en/error -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="format-detection" content="telephone=no,email=no,address=no">
+  <title>Binance</title>
+  <link rel="Shortcut Icon" href="https://www.binance.com/en/favicon.ico">
+  <style>
+    body {
+      margin: 0
+    }
+
+    .img {
+      width: 611px;
+      margin: 68px auto 0
+    }
+
+    .info {
+      width: 370px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: Arial;
+    }
+
+    .info h3 {
+      margin: 0;
+      font-size: 25px;
+      color: #333;
+      font-weight: normal;
+    }
+
+    .info p {
+      font-size: 14px;
+      font-family: Arial;
+      color: #333;
+      line-height: 18px;
+      margin: 0
+    }
+
+    .info button {
+      margin-top: 20px;
+      width: 231px;
+      height: 34px;
+      background: #FFFFFF;
+      border: 1px solid #F0B90B;
+      box-sizing: border-box;
+      border-radius: 3px;
+      font-size: 14px;
+      line-height: 16px;
+      color: #F0B90B;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="img"><img alt="" src="/errorPages/404.jpg"></div>
+  <div class="info">
+    <h3>åºéå¦ï¼æ¨è®¿é®çç½é¡µä¸å­å¨ã</h3>
+    <p>Sorry! The page youâre looking for cannot be found.</p>
+    <a href="https://www.binance.com">
+      <button>Return to Binance home page</button>
+    </a>
+  </div>
+
+</body>
+
+</html>
+
+2026-02-21 19:35:33 - root - WARNING - ⚠ Could not fetch positions from Binance
+2026-02-21 19:35:33 - root - WARNING - ⚠ Position sync failed - bot may not recover from crashes properly
+2026-02-21 19:35:33 - root - INFO - ============================================================
+
+2026-02-21 19:35:34 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 19:35:34 - root - WARNING - Could not set leverage to 2x
+2026-02-21 19:35:34 - root - INFO - ============================================================
+2026-02-21 19:35:34 - root - INFO - Bot initialized successfully!
+2026-02-21 19:35:34 - root - INFO - ============================================================
+2026-02-21 19:35:34 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 19:35:34 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 19:37:59 - root - INFO - ============================================================
+2026-02-21 19:37:59 - root - INFO - Initializing Trading Bot
+2026-02-21 19:37:59 - root - INFO - ============================================================
+2026-02-21 19:38:05 - binance_api - INFO - Connected to Binance Mainnet
+2026-02-21 19:38:05 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-21 19:38:05 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-21 19:38:05 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 19:38:05 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 19:38:05 - root - INFO - 
+============================================================
+2026-02-21 19:38:05 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 19:38:05 - root - INFO - ============================================================
+2026-02-21 19:38:06 - root - INFO - ℹ Position sync unavailable (API endpoint may not be accessible)
+2026-02-21 19:38:06 - root - INFO - ℹ Bot will track positions from local state and orders
+2026-02-21 19:38:06 - root - INFO - ============================================================
+
+2026-02-21 19:38:06 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 19:38:06 - root - WARNING - Could not set leverage to 2x
+2026-02-21 19:38:06 - root - INFO - ============================================================
+2026-02-21 19:38:06 - root - INFO - Bot initialized successfully!
+2026-02-21 19:38:06 - root - INFO - ============================================================
+2026-02-21 19:38:06 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 19:38:06 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 19:40:54 - root - INFO - ============================================================
+2026-02-21 19:40:54 - root - INFO - Initializing Trading Bot
+2026-02-21 19:40:54 - root - INFO - ============================================================
+2026-02-21 19:40:54 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-21 19:40:54 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-21 19:40:54 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-21 19:40:54 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-21 19:40:54 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 19:40:54 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 19:40:54 - root - INFO - 
+============================================================
+2026-02-21 19:40:54 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 19:40:54 - root - INFO - ============================================================
+2026-02-21 19:40:56 - binance_api - ERROR - Error fetching positions: APIError(code=0): Invalid JSON error message from Binance: <!DOCTYPE html>
+<!-- saved from url=(0032)https://www.binance.com/en/error -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="format-detection" content="telephone=no,email=no,address=no">
+  <title>Binance</title>
+  <link rel="Shortcut Icon" href="https://www.binance.com/en/favicon.ico">
+  <style>
+    body {
+      margin: 0
+    }
+
+    .img {
+      width: 611px;
+      margin: 68px auto 0
+    }
+
+    .info {
+      width: 370px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: Arial;
+    }
+
+    .info h3 {
+      margin: 0;
+      font-size: 25px;
+      color: #333;
+      font-weight: normal;
+    }
+
+    .info p {
+      font-size: 14px;
+      font-family: Arial;
+      color: #333;
+      line-height: 18px;
+      margin: 0
+    }
+
+    .info button {
+      margin-top: 20px;
+      width: 231px;
+      height: 34px;
+      background: #FFFFFF;
+      border: 1px solid #F0B90B;
+      box-sizing: border-box;
+      border-radius: 3px;
+      font-size: 14px;
+      line-height: 16px;
+      color: #F0B90B;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="img"><img alt="" src="/errorPages/404.jpg"></div>
+  <div class="info">
+    <h3>åºéå¦ï¼æ¨è®¿é®çç½é¡µä¸å­å¨ã</h3>
+    <p>Sorry! The page youâre looking for cannot be found.</p>
+    <a href="https://www.binance.com">
+      <button>Return to Binance home page</button>
+    </a>
+  </div>
+
+</body>
+
+</html>
+
+2026-02-21 19:40:56 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-21 19:40:56 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-21 19:40:56 - root - INFO - ============================================================
+
+2026-02-21 19:40:56 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 19:40:56 - root - WARNING - Could not set leverage to 2x
+2026-02-21 19:40:56 - root - INFO - ============================================================
+2026-02-21 19:40:56 - root - INFO - Bot initialized successfully!
+2026-02-21 19:40:56 - root - INFO - ============================================================
+2026-02-21 19:40:56 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 19:40:56 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 19:41:26 - root - INFO - ============================================================
+2026-02-21 19:41:26 - root - INFO - Initializing Trading Bot
+2026-02-21 19:41:26 - root - INFO - ============================================================
+2026-02-21 19:41:26 - binance_api - INFO - Connected to Binance Futures Testnet
+2026-02-21 19:41:26 - binance_api - INFO - Futures API URL: https://testnet.binancefuture.com/fapi
+2026-02-21 19:41:26 - root - INFO - ✓ Connected to Binance Demo (Testnet)
+2026-02-21 19:41:26 - root - WARNING - ⚠ Running in Demo (Testnet) mode
+2026-02-21 19:41:26 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 19:41:26 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 19:41:26 - root - INFO - 
+============================================================
+2026-02-21 19:41:26 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 19:41:26 - root - INFO - ============================================================
+2026-02-21 19:41:31 - binance_api - ERROR - Error fetching positions: APIError(code=-5000): Path /fapi/v1/positionRisk, Method GET is invalid
+2026-02-21 19:41:31 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-21 19:41:31 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-21 19:41:31 - root - INFO - ============================================================
+
+2026-02-21 19:41:31 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 19:41:31 - root - WARNING - Could not set leverage to 2x
+2026-02-21 19:41:31 - root - INFO - ============================================================
+2026-02-21 19:41:31 - root - INFO - Bot initialized successfully!
+2026-02-21 19:41:31 - root - INFO - ============================================================
+2026-02-21 19:41:31 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 19:41:31 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 19:46:31 - root - INFO - 
+Checking exit signals at 2026-02-21 19:46:31.654186
+2026-02-21 19:46:31 - root - INFO - 
+============================================================
+2026-02-21 19:46:31 - root - INFO - Checking signals at 2026-02-21 19:46:31.654690
+2026-02-21 19:46:31 - root - INFO - ============================================================
+2026-02-21 19:46:32 - root - INFO - Signal Analysis: {'current_rsi': np.float64(59.08), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.True_, 'current_high_higher': np.True_, 'current_high': 68214.1, 'previous_high': 68212.4, 'previous_close': 68212.4, 'current_close': 68206.5}
+2026-02-21 19:46:32 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 59.08)
+2026-02-21 19:46:32 - root - INFO - 
+📊 Status Report at 2026-02-21 19:46:32.632705
+2026-02-21 19:46:32 - root - INFO - Open trades: 0/5
+2026-02-21 19:46:32 - root - INFO - Closed trades: 0
+2026-02-21 19:46:32 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 19:48:12 - root - INFO - ============================================================
+2026-02-21 19:48:12 - root - INFO - Initializing Trading Bot
+2026-02-21 19:48:12 - root - INFO - ============================================================
+2026-02-21 19:48:12 - binance_api - INFO - Connected to Binance Futures Testnet
+2026-02-21 19:48:12 - binance_api - INFO - Futures API URL: https://testnet.binancefuture.com/fapi
+2026-02-21 19:48:12 - root - INFO - ✓ Connected to Binance Demo (Testnet)
+2026-02-21 19:48:12 - root - WARNING - ⚠ Running in Demo (Testnet) mode
+2026-02-21 19:48:12 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 19:48:12 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 19:48:12 - root - INFO - 
+============================================================
+2026-02-21 19:48:12 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 19:48:12 - root - INFO - ============================================================
+2026-02-21 19:48:13 - binance_api - ERROR - Error fetching positions: APIError(code=-5000): Path /fapi/v1/positionRisk, Method GET is invalid
+2026-02-21 19:48:13 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-21 19:48:13 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-21 19:48:13 - root - INFO - ============================================================
+
+2026-02-21 19:48:13 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 19:48:13 - root - WARNING - Could not set leverage to 2x
+2026-02-21 19:48:13 - root - INFO - ============================================================
+2026-02-21 19:48:13 - root - INFO - Bot initialized successfully!
+2026-02-21 19:48:13 - root - INFO - ============================================================
+2026-02-21 19:48:13 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 19:48:13 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 19:53:14 - root - INFO - 
+Checking exit signals at 2026-02-21 19:53:14.165173
+2026-02-21 19:53:14 - root - INFO - 
+============================================================
+2026-02-21 19:53:14 - root - INFO - Checking signals at 2026-02-21 19:53:14.165589
+2026-02-21 19:53:14 - root - INFO - ============================================================
+2026-02-21 19:53:15 - root - INFO - Signal Analysis: {'current_rsi': np.float64(60.38), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.True_, 'current_high_higher': np.True_, 'current_high': 68218.4, 'previous_high': 68214.1, 'previous_close': 68214.1, 'current_close': 68218.4}
+2026-02-21 19:53:15 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 60.38)
+2026-02-21 19:53:15 - root - INFO - 
+📊 Status Report at 2026-02-21 19:53:15.121560
+2026-02-21 19:53:15 - root - INFO - Open trades: 0/5
+2026-02-21 19:53:15 - root - INFO - Closed trades: 0
+2026-02-21 19:53:15 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 19:54:59 - root - INFO - ============================================================
+2026-02-21 19:54:59 - root - INFO - Initializing Trading Bot
+2026-02-21 19:54:59 - root - INFO - ============================================================
+2026-02-21 19:54:59 - binance_api - INFO - Connected to Binance Futures Testnet
+2026-02-21 19:54:59 - binance_api - INFO - Futures API URL: https://testnet.binancefuture.com/fapi
+2026-02-21 19:54:59 - root - INFO - ✓ Connected to Binance Demo (Testnet)
+2026-02-21 19:54:59 - root - WARNING - ⚠ Running in Demo (Testnet) mode
+2026-02-21 19:54:59 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 19:54:59 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 19:54:59 - root - INFO - 
+============================================================
+2026-02-21 19:54:59 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 19:54:59 - root - INFO - ============================================================
+2026-02-21 19:55:00 - binance_api - ERROR - Error fetching positions: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 19:55:00 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-21 19:55:00 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-21 19:55:00 - root - INFO - ============================================================
+
+2026-02-21 19:55:00 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 19:55:00 - root - WARNING - Could not set leverage to 2x
+2026-02-21 19:55:00 - root - INFO - ============================================================
+2026-02-21 19:55:00 - root - INFO - Bot initialized successfully!
+2026-02-21 19:55:00 - root - INFO - ============================================================
+2026-02-21 19:55:00 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 19:55:00 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 19:55:54 - root - INFO - ============================================================
+2026-02-21 19:55:54 - root - INFO - Initializing Trading Bot
+2026-02-21 19:55:54 - root - INFO - ============================================================
+2026-02-21 19:56:00 - binance_api - INFO - Connected to Binance Futures Testnet
+2026-02-21 19:56:00 - binance_api - INFO - Futures API URL: https://testnet.binancefuture.com/fapi
+2026-02-21 19:56:00 - root - INFO - ✓ Connected to Binance Demo (Testnet)
+2026-02-21 19:56:00 - root - WARNING - ⚠ Running in Demo (Testnet) mode
+2026-02-21 19:56:00 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 19:56:00 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 19:56:00 - root - INFO - 
+============================================================
+2026-02-21 19:56:00 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 19:56:00 - root - INFO - ============================================================
+2026-02-21 19:56:01 - binance_api - ERROR - Error fetching positions: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 19:56:01 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-21 19:56:01 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-21 19:56:01 - root - INFO - ============================================================
+
+2026-02-21 19:56:01 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 19:56:01 - root - WARNING - Could not set leverage to 2x
+2026-02-21 19:56:01 - root - INFO - ============================================================
+2026-02-21 19:56:01 - root - INFO - Bot initialized successfully!
+2026-02-21 19:56:01 - root - INFO - ============================================================
+2026-02-21 19:56:01 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 19:56:01 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 20:01:02 - root - INFO - 
+Checking exit signals at 2026-02-21 20:01:02.256366
+2026-02-21 20:01:02 - root - INFO - 
+============================================================
+2026-02-21 20:01:02 - root - INFO - Checking signals at 2026-02-21 20:01:02.256818
+2026-02-21 20:01:02 - root - INFO - ============================================================
+2026-02-21 20:01:02 - root - INFO - Signal Analysis: {'current_rsi': np.float64(68.39), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.False_, 'current_high_higher': np.False_, 'current_high': 68407.9, 'previous_high': 68461.2, 'previous_close': 68404.0, 'current_close': 68394.3}
+2026-02-21 20:01:02 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 68.39) | Previous candle not bullish | Current high not higher than previous high
+2026-02-21 20:01:02 - root - INFO - 
+📊 Status Report at 2026-02-21 20:01:02.714099
+2026-02-21 20:01:02 - root - INFO - Open trades: 0/5
+2026-02-21 20:01:02 - root - INFO - Closed trades: 0
+2026-02-21 20:01:02 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 20:06:03 - root - INFO - 
+Checking exit signals at 2026-02-21 20:06:03.032295
+2026-02-21 20:06:03 - root - INFO - 
+============================================================
+2026-02-21 20:06:03 - root - INFO - Checking signals at 2026-02-21 20:06:03.032746
+2026-02-21 20:06:03 - root - INFO - ============================================================
+2026-02-21 20:06:04 - root - INFO - Signal Analysis: {'current_rsi': np.float64(74.76), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.True_, 'current_high_higher': np.True_, 'current_high': 68534.2, 'previous_high': 68534.0, 'previous_close': 68531.4, 'current_close': 68527.8}
+2026-02-21 20:06:04 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 74.76)
+2026-02-21 20:06:04 - root - INFO - 
+📊 Status Report at 2026-02-21 20:06:04.000877
+2026-02-21 20:06:04 - root - INFO - Open trades: 0/5
+2026-02-21 20:06:04 - root - INFO - Closed trades: 0
+2026-02-21 20:06:04 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 20:11:04 - root - INFO - 
+Checking exit signals at 2026-02-21 20:11:04.329638
+2026-02-21 20:11:04 - root - INFO - 
+============================================================
+2026-02-21 20:11:04 - root - INFO - Checking signals at 2026-02-21 20:11:04.330268
+2026-02-21 20:11:04 - root - INFO - ============================================================
+2026-02-21 20:11:05 - root - INFO - Signal Analysis: {'current_rsi': np.float64(71.12), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.False_, 'current_high_higher': np.False_, 'current_high': 68520.1, 'previous_high': 68534.4, 'previous_close': 68479.0, 'current_close': 68515.1}
+2026-02-21 20:11:05 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 71.12) | Previous candle not bullish | Current high not higher than previous high
+2026-02-21 20:11:05 - root - INFO - 
+📊 Status Report at 2026-02-21 20:11:05.258243
+2026-02-21 20:11:05 - root - INFO - Open trades: 0/5
+2026-02-21 20:11:05 - root - INFO - Closed trades: 0
+2026-02-21 20:11:05 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 20:16:05 - root - INFO - 
+Checking exit signals at 2026-02-21 20:16:05.575786
+2026-02-21 20:16:05 - root - INFO - 
+============================================================
+2026-02-21 20:16:05 - root - INFO - Checking signals at 2026-02-21 20:16:05.576299
+2026-02-21 20:16:05 - root - INFO - ============================================================
+2026-02-21 20:16:06 - root - INFO - Signal Analysis: {'current_rsi': np.float64(71.04), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.False_, 'current_high_higher': np.False_, 'current_high': 68520.8, 'previous_high': 68534.4, 'previous_close': 68479.0, 'current_close': 68513.2}
+2026-02-21 20:16:06 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 71.04) | Previous candle not bullish | Current high not higher than previous high
+2026-02-21 20:16:06 - root - INFO - 
+📊 Status Report at 2026-02-21 20:16:06.388762
+2026-02-21 20:16:06 - root - INFO - Open trades: 0/5
+2026-02-21 20:16:06 - root - INFO - Closed trades: 0
+2026-02-21 20:16:06 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 20:21:06 - root - INFO - 
+Checking exit signals at 2026-02-21 20:21:06.707286
+2026-02-21 20:21:06 - root - INFO - 
+============================================================
+2026-02-21 20:21:06 - root - INFO - Checking signals at 2026-02-21 20:21:06.707764
+2026-02-21 20:21:06 - root - INFO - ============================================================
+2026-02-21 20:21:07 - root - INFO - Signal Analysis: {'current_rsi': np.float64(67.39), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.True_, 'current_high_higher': np.False_, 'current_high': 68513.4, 'previous_high': 68520.8, 'previous_close': 68488.9, 'current_close': 68465.6}
+2026-02-21 20:21:07 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 67.39) | Current high not higher than previous high
+2026-02-21 20:21:07 - root - INFO - 
+📊 Status Report at 2026-02-21 20:21:07.523919
+2026-02-21 20:21:07 - root - INFO - Open trades: 0/5
+2026-02-21 20:21:07 - root - INFO - Closed trades: 0
+2026-02-21 20:21:07 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 20:26:07 - root - INFO - 
+Checking exit signals at 2026-02-21 20:26:07.855129
+2026-02-21 20:26:07 - root - INFO - 
+============================================================
+2026-02-21 20:26:07 - root - INFO - Checking signals at 2026-02-21 20:26:07.855499
+2026-02-21 20:26:07 - root - INFO - ============================================================
+2026-02-21 20:26:08 - root - INFO - Signal Analysis: {'current_rsi': np.float64(67.17), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.False_, 'current_high_higher': np.True_, 'current_high': 68524.0, 'previous_high': 68513.4, 'previous_close': 68449.9, 'current_close': 68475.7}
+2026-02-21 20:26:08 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 67.17) | Previous candle not bullish
+2026-02-21 20:26:08 - root - INFO - 
+📊 Status Report at 2026-02-21 20:26:08.745248
+2026-02-21 20:26:08 - root - INFO - Open trades: 0/5
+2026-02-21 20:26:08 - root - INFO - Closed trades: 0
+2026-02-21 20:26:08 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 20:31:09 - root - INFO - 
+Checking exit signals at 2026-02-21 20:31:09.107378
+2026-02-21 20:31:09 - root - INFO - 
+============================================================
+2026-02-21 20:31:09 - root - INFO - Checking signals at 2026-02-21 20:31:09.107865
+2026-02-21 20:31:09 - root - INFO - ============================================================
+2026-02-21 20:31:10 - root - INFO - Signal Analysis: {'current_rsi': np.float64(62.18), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.True_, 'current_high_higher': np.False_, 'current_high': 68443.7, 'previous_high': 68444.6, 'previous_close': 68443.0, 'current_close': 68420.1}
+2026-02-21 20:31:10 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 62.18) | Current high not higher than previous high
+2026-02-21 20:31:10 - root - INFO - 
+📊 Status Report at 2026-02-21 20:31:10.366512
+2026-02-21 20:31:10 - root - INFO - Open trades: 0/5
+2026-02-21 20:31:10 - root - INFO - Closed trades: 0
+2026-02-21 20:31:10 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 20:36:10 - root - INFO - 
+Checking exit signals at 2026-02-21 20:36:10.704235
+2026-02-21 20:36:10 - root - INFO - 
+============================================================
+2026-02-21 20:36:10 - root - INFO - Checking signals at 2026-02-21 20:36:10.704708
+2026-02-21 20:36:10 - root - INFO - ============================================================
+2026-02-21 20:36:11 - root - INFO - Signal Analysis: {'current_rsi': np.float64(61.01), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.False_, 'current_high_higher': np.False_, 'current_high': 68419.2, 'previous_high': 68445.9, 'previous_close': 68407.2, 'current_close': 68410.5}
+2026-02-21 20:36:11 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 61.01) | Previous candle not bullish | Current high not higher than previous high
+2026-02-21 20:36:11 - root - INFO - 
+📊 Status Report at 2026-02-21 20:36:11.479463
+2026-02-21 20:36:11 - root - INFO - Open trades: 0/5
+2026-02-21 20:36:11 - root - INFO - Closed trades: 0
+2026-02-21 20:36:11 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 20:41:11 - root - INFO - 
+Checking exit signals at 2026-02-21 20:41:11.822327
+2026-02-21 20:41:11 - root - INFO - 
+============================================================
+2026-02-21 20:41:11 - root - INFO - Checking signals at 2026-02-21 20:41:11.822846
+2026-02-21 20:41:11 - root - INFO - ============================================================
+2026-02-21 20:41:12 - root - INFO - Signal Analysis: {'current_rsi': np.float64(62.43), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.True_, 'current_high_higher': np.False_, 'current_high': 68441.7, 'previous_high': 68441.7, 'previous_close': 68435.4, 'current_close': 68432.6}
+2026-02-21 20:41:12 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 62.43) | Current high not higher than previous high
+2026-02-21 20:41:12 - root - INFO - 
+📊 Status Report at 2026-02-21 20:41:12.998600
+2026-02-21 20:41:12 - root - INFO - Open trades: 0/5
+2026-02-21 20:41:12 - root - INFO - Closed trades: 0
+2026-02-21 20:41:12 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 20:43:33 - root - INFO - ============================================================
+2026-02-21 20:43:33 - root - INFO - Initializing Trading Bot
+2026-02-21 20:43:33 - root - INFO - ============================================================
+2026-02-21 20:43:33 - binance_api - INFO - Connected to Binance Futures Testnet
+2026-02-21 20:43:33 - binance_api - INFO - Futures API URL: https://testnet.binancefuture.com/fapi
+2026-02-21 20:43:33 - root - INFO - ✓ Connected to Binance Demo (Testnet)
+2026-02-21 20:43:33 - root - WARNING - ⚠ Running in Demo (Testnet) mode
+2026-02-21 20:43:33 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 20:43:33 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 20:43:33 - root - INFO - 
+============================================================
+2026-02-21 20:43:33 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 20:43:33 - root - INFO - ============================================================
+2026-02-21 20:43:34 - binance_api - ERROR - Error fetching positions: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 20:43:34 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-21 20:43:34 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-21 20:43:34 - root - INFO - ============================================================
+
+2026-02-21 20:43:34 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 20:43:34 - root - WARNING - Could not set leverage to 2x
+2026-02-21 20:43:34 - root - INFO - ============================================================
+2026-02-21 20:43:34 - root - INFO - Bot initialized successfully!
+2026-02-21 20:43:34 - root - INFO - ============================================================
+2026-02-21 20:43:34 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 20:43:34 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 20:44:09 - root - INFO - ============================================================
+2026-02-21 20:44:09 - root - INFO - Initializing Trading Bot
+2026-02-21 20:44:09 - root - INFO - ============================================================
+2026-02-21 20:44:09 - binance_api - INFO - Connected to Binance Futures Testnet
+2026-02-21 20:44:09 - binance_api - INFO - Futures API URL: https://testnet.binancefuture.com/fapi
+2026-02-21 20:44:09 - root - INFO - ✓ Connected to Binance Demo (Testnet)
+2026-02-21 20:44:09 - root - WARNING - ⚠ Running in Demo (Testnet) mode
+2026-02-21 20:44:09 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 20:44:09 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 20:44:09 - root - INFO - 
+============================================================
+2026-02-21 20:44:09 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 20:44:09 - root - INFO - ============================================================
+2026-02-21 20:44:10 - binance_api - ERROR - Error fetching positions: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 20:44:10 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-21 20:44:10 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-21 20:44:10 - root - INFO - ============================================================
+
+2026-02-21 20:44:11 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 20:44:11 - root - WARNING - Could not set leverage to 2x
+2026-02-21 20:44:11 - root - INFO - ============================================================
+2026-02-21 20:44:11 - root - INFO - Bot initialized successfully!
+2026-02-21 20:44:11 - root - INFO - ============================================================
+2026-02-21 20:44:11 - root - INFO - Tasks scheduled to run every 5 minutes
+2026-02-21 20:44:11 - root - INFO - Press Ctrl+C to stop the bot
+2026-02-21 20:49:11 - root - INFO - 
+Checking exit signals at 2026-02-21 20:49:11.395842
+2026-02-21 20:49:11 - root - INFO - 
+============================================================
+2026-02-21 20:49:11 - root - INFO - Checking signals at 2026-02-21 20:49:11.396602
+2026-02-21 20:49:11 - root - INFO - ============================================================
+2026-02-21 20:49:11 - binance_api - ERROR - Error fetching klines: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/klines?interval=5m&limit=100&symbol=BTCUSDT (Caused by NameResolutionError("HTTPSConnection(host='testnet.binancefuture.com', port=443): Failed to resolve 'testnet.binancefuture.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-02-21 20:49:11 - root - ERROR - Failed to fetch klines
+2026-02-21 20:49:11 - root - INFO - 
+📊 Status Report at 2026-02-21 20:49:11.399857
+2026-02-21 20:49:11 - root - INFO - Open trades: 0/5
+2026-02-21 20:49:11 - root - INFO - Closed trades: 0
+2026-02-21 20:49:11 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 20:52:55 - root - INFO - ============================================================
+2026-02-21 20:52:55 - root - INFO - Initializing Trading Bot
+2026-02-21 20:52:55 - root - INFO - ============================================================
+2026-02-21 20:52:56 - binance_api - INFO - Connected to Binance Futures Testnet
+2026-02-21 20:52:56 - binance_api - INFO - Futures API URL: https://testnet.binancefuture.com/fapi
+2026-02-21 20:52:56 - root - INFO - ✓ Connected to Binance Demo (Testnet)
+2026-02-21 20:52:56 - root - WARNING - ⚠ Running in Demo (Testnet) mode
+2026-02-21 20:52:56 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 20:52:56 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 20:52:56 - root - INFO - 
+============================================================
+2026-02-21 20:52:56 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 20:52:56 - root - INFO - ============================================================
+2026-02-21 20:52:57 - binance_api - ERROR - Error fetching positions: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 20:52:57 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-21 20:52:57 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-21 20:52:57 - root - INFO - ============================================================
+
+2026-02-21 20:52:58 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 20:52:58 - root - WARNING - Could not set leverage to 2x
+2026-02-21 20:52:58 - root - INFO - ============================================================
+2026-02-21 20:52:58 - root - INFO - Bot initialized successfully!
+2026-02-21 20:52:58 - root - INFO - ============================================================
+2026-02-21 20:52:58 - root - INFO - 
+============================================================
+2026-02-21 20:52:58 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-21 20:52:58 - root - INFO - Timeframe: 5m
+2026-02-21 20:52:58 - root - INFO - Next check in 121.6 seconds
+2026-02-21 20:52:58 - root - INFO - ============================================================
+2026-02-21 20:52:58 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-21 20:53:28 - root - INFO - ============================================================
+2026-02-21 20:53:28 - root - INFO - Initializing Trading Bot
+2026-02-21 20:53:28 - root - INFO - ============================================================
+2026-02-21 20:53:28 - binance_api - INFO - Connected to Binance Futures Testnet
+2026-02-21 20:53:28 - binance_api - INFO - Futures API URL: https://testnet.binancefuture.com/fapi
+2026-02-21 20:53:28 - root - INFO - ✓ Connected to Binance Demo (Testnet)
+2026-02-21 20:53:28 - root - WARNING - ⚠ Running in Demo (Testnet) mode
+2026-02-21 20:53:28 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 20:53:28 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 20:53:28 - root - INFO - 
+============================================================
+2026-02-21 20:53:28 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 20:53:28 - root - INFO - ============================================================
+2026-02-21 20:53:29 - binance_api - ERROR - Error fetching positions: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 20:53:29 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-21 20:53:29 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-21 20:53:29 - root - INFO - ============================================================
+
+2026-02-21 20:53:29 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 20:53:29 - root - WARNING - Could not set leverage to 2x
+2026-02-21 20:53:29 - root - INFO - ============================================================
+2026-02-21 20:53:29 - root - INFO - Bot initialized successfully!
+2026-02-21 20:53:29 - root - INFO - ============================================================
+2026-02-21 20:53:29 - root - INFO - 
+============================================================
+2026-02-21 20:53:29 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-21 20:53:29 - root - INFO - Timeframe: 5m
+2026-02-21 20:53:29 - root - INFO - Next check in 90.6 seconds
+2026-02-21 20:53:29 - root - INFO - ============================================================
+2026-02-21 20:53:29 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-21 20:55:00 - root - INFO - Checking exit signals at 2026-02-21 20:55:00.393695 (Binance: 2026-02-21 20:55:00.239000)
+2026-02-21 20:55:00 - root - INFO - 
+============================================================
+2026-02-21 20:55:00 - root - INFO - Checking signals at 2026-02-21 20:55:00.700998 (Binance: 2026-02-21 20:55:00.549000)
+2026-02-21 20:55:00 - root - INFO - ============================================================
+2026-02-21 20:55:01 - root - INFO - Signal Analysis: {'current_rsi': np.float64(66.81), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.True_, 'current_high_higher': np.True_, 'current_high': 68516.1, 'previous_high': 68515.2, 'previous_close': 68514.0, 'current_close': 68505.7}
+2026-02-21 20:55:01 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 66.81)
+2026-02-21 20:55:01 - root - INFO - 
+📊 Status Report at 2026-02-21 20:55:01.015798
+2026-02-21 20:55:01 - root - INFO - Open trades: 0/5
+2026-02-21 20:55:01 - root - INFO - Closed trades: 0
+2026-02-21 20:55:01 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 20:59:59 - root - INFO - ============================================================
+2026-02-21 20:59:59 - root - INFO - Initializing Trading Bot
+2026-02-21 20:59:59 - root - INFO - ============================================================
+2026-02-21 20:59:59 - binance_api - INFO - Connected to Binance Futures Testnet
+2026-02-21 20:59:59 - binance_api - INFO - Futures API URL: https://testnet.binancefuture.com/fapi
+2026-02-21 20:59:59 - root - INFO - ✓ Connected to Binance Demo (Testnet)
+2026-02-21 20:59:59 - root - WARNING - ⚠ Running in Demo (Testnet) mode
+2026-02-21 20:59:59 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 20:59:59 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 20:59:59 - root - INFO - 
+============================================================
+2026-02-21 20:59:59 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 20:59:59 - root - INFO - ============================================================
+2026-02-21 21:00:00 - binance_api - ERROR - Error fetching positions: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 21:00:00 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-21 21:00:00 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-21 21:00:00 - root - INFO - ============================================================
+
+2026-02-21 21:00:01 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 21:00:01 - root - WARNING - Could not set leverage to 2x
+2026-02-21 21:00:01 - root - INFO - ============================================================
+2026-02-21 21:00:01 - root - INFO - Bot initialized successfully!
+2026-02-21 21:00:01 - root - INFO - ============================================================
+2026-02-21 21:00:01 - root - INFO - 
+============================================================
+2026-02-21 21:00:01 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-21 21:00:01 - root - INFO - Timeframe: 5m
+2026-02-21 21:00:01 - root - INFO - Next check in 298.7 seconds
+2026-02-21 21:00:01 - root - INFO - ============================================================
+2026-02-21 21:00:01 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-21 21:00:30 - root - INFO - ============================================================
+2026-02-21 21:00:30 - root - INFO - Initializing Trading Bot
+2026-02-21 21:00:30 - root - INFO - ============================================================
+2026-02-21 21:00:30 - binance_api - INFO - Connected to Binance Futures Testnet
+2026-02-21 21:00:30 - binance_api - INFO - Futures API URL: https://testnet.binancefuture.com/fapi
+2026-02-21 21:00:30 - root - INFO - ✓ Connected to Binance Demo (Testnet)
+2026-02-21 21:00:30 - root - WARNING - ⚠ Running in Demo (Testnet) mode
+2026-02-21 21:00:30 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 21:00:30 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 21:00:30 - root - INFO - 
+============================================================
+2026-02-21 21:00:30 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 21:00:30 - root - INFO - ============================================================
+2026-02-21 21:00:31 - binance_api - ERROR - Error fetching positions: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 21:00:31 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-21 21:00:31 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-21 21:00:31 - root - INFO - ============================================================
+
+2026-02-21 21:00:31 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 21:00:31 - root - WARNING - Could not set leverage to 2x
+2026-02-21 21:00:31 - root - INFO - ============================================================
+2026-02-21 21:00:31 - root - INFO - Bot initialized successfully!
+2026-02-21 21:00:31 - root - INFO - ============================================================
+2026-02-21 21:00:31 - root - INFO - 
+============================================================
+2026-02-21 21:00:31 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-21 21:00:31 - root - INFO - Timeframe: 5m
+2026-02-21 21:00:31 - root - INFO - Next check in 268.4 seconds
+2026-02-21 21:00:31 - root - INFO - ============================================================
+2026-02-21 21:00:31 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-21 21:01:07 - root - INFO - ============================================================
+2026-02-21 21:01:07 - root - INFO - Initializing Trading Bot
+2026-02-21 21:01:07 - root - INFO - ============================================================
+2026-02-21 21:01:08 - binance_api - INFO - Connected to Binance Futures Testnet
+2026-02-21 21:01:08 - binance_api - INFO - Futures API URL: https://testnet.binancefuture.com/fapi
+2026-02-21 21:01:08 - root - INFO - ✓ Connected to Binance Demo (Testnet)
+2026-02-21 21:01:08 - root - WARNING - ⚠ Running in Demo (Testnet) mode
+2026-02-21 21:01:08 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 21:01:08 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 21:01:08 - root - INFO - 
+============================================================
+2026-02-21 21:01:08 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 21:01:08 - root - INFO - ============================================================
+2026-02-21 21:01:09 - binance_api - ERROR - Error fetching positions: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 21:01:09 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-21 21:01:09 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-21 21:01:09 - root - INFO - ============================================================
+
+2026-02-21 21:01:09 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 21:01:09 - root - WARNING - Could not set leverage to 2x
+2026-02-21 21:01:09 - root - INFO - ============================================================
+2026-02-21 21:01:09 - root - INFO - Bot initialized successfully!
+2026-02-21 21:01:09 - root - INFO - ============================================================
+2026-02-21 21:01:09 - root - INFO - 
+============================================================
+2026-02-21 21:01:09 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-21 21:01:09 - root - INFO - Timeframe: 5m
+2026-02-21 21:01:09 - root - INFO - Next check in 230.6 seconds
+2026-02-21 21:01:09 - root - INFO - ============================================================
+2026-02-21 21:01:09 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-21 21:02:34 - root - INFO - ============================================================
+2026-02-21 21:02:34 - root - INFO - Initializing Trading Bot
+2026-02-21 21:02:34 - root - INFO - ============================================================
+2026-02-21 21:02:35 - binance_api - INFO - Connected to Binance Futures Testnet
+2026-02-21 21:02:35 - binance_api - INFO - Futures API URL: https://testnet.binancefuture.com/fapi
+2026-02-21 21:02:35 - root - INFO - ✓ Connected to Binance Demo (Testnet)
+2026-02-21 21:02:35 - root - WARNING - ⚠ Running in Demo (Testnet) mode
+2026-02-21 21:02:35 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 21:02:35 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 21:02:35 - root - INFO - 
+============================================================
+2026-02-21 21:02:35 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 21:02:35 - root - INFO - ============================================================
+2026-02-21 21:02:36 - binance_api - ERROR - Error fetching positions: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 21:02:36 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-21 21:02:36 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-21 21:02:36 - root - INFO - ============================================================
+
+2026-02-21 21:02:36 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 21:02:36 - root - WARNING - Could not set leverage to 2x
+2026-02-21 21:02:36 - root - INFO - ============================================================
+2026-02-21 21:02:36 - root - INFO - Bot initialized successfully!
+2026-02-21 21:02:36 - root - INFO - ============================================================
+2026-02-21 21:02:36 - root - INFO - 
+============================================================
+2026-02-21 21:02:36 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-21 21:02:36 - root - INFO - Timeframe: 5m
+2026-02-21 21:02:36 - root - INFO - Next check in 143.4 seconds
+2026-02-21 21:02:36 - root - INFO - ============================================================
+2026-02-21 21:02:36 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-21 21:05:00 - root - INFO - Checking exit signals at 2026-02-21 21:05:00.698072 (Binance: 2026-02-21 21:05:00.550000)
+2026-02-21 21:05:00 - root - INFO - 
+============================================================
+2026-02-21 21:05:00 - root - INFO - Checking signals at 2026-02-21 21:05:00.903237 (Binance: 2026-02-21 21:05:00.723000)
+2026-02-21 21:05:00 - root - INFO - ============================================================
+2026-02-21 21:05:02 - root - INFO - Klines freshness check: Fresh data (closed 302.1s ago)
+2026-02-21 21:05:02 - root - INFO - Signal Analysis: {'current_rsi': np.float64(37.68), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.False_, 'current_high_higher': np.True_, 'current_high': 68524.0, 'previous_high': 68516.1, 'previous_close': 68426.0, 'current_close': 68152.8}
+2026-02-21 21:05:02 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 37.68) | Previous candle not bullish
+2026-02-21 21:05:02 - root - INFO - 
+📊 Status Report at 2026-02-21 21:05:02.195510
+2026-02-21 21:05:02 - root - INFO - Open trades: 0/5
+2026-02-21 21:05:02 - root - INFO - Closed trades: 0
+2026-02-21 21:05:02 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-21 21:06:30 - root - INFO - ============================================================
+2026-02-21 21:06:30 - root - INFO - Initializing Trading Bot
+2026-02-21 21:06:30 - root - INFO - ============================================================
+2026-02-21 21:06:30 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-21 21:06:30 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-21 21:06:30 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-21 21:06:30 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-21 21:06:30 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-21 21:06:30 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-21 21:06:30 - root - INFO - 
+============================================================
+2026-02-21 21:06:30 - root - INFO - Synchronizing positions with Binance...
+2026-02-21 21:06:30 - root - INFO - ============================================================
+2026-02-21 21:06:31 - binance_api - ERROR - Error fetching positions: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 21:06:31 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-21 21:06:31 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-21 21:06:31 - root - INFO - ============================================================
+
+2026-02-21 21:06:31 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-21 21:06:31 - root - WARNING - Could not set leverage to 2x
+2026-02-21 21:06:31 - root - INFO - ============================================================
+2026-02-21 21:06:31 - root - INFO - Bot initialized successfully!
+2026-02-21 21:06:31 - root - INFO - ============================================================
+2026-02-21 21:06:31 - root - INFO - 
+============================================================
+2026-02-21 21:06:31 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-21 21:06:31 - root - INFO - Timeframe: 5m
+2026-02-21 21:06:31 - root - INFO - Next check in 208.3 seconds
+2026-02-21 21:06:31 - root - INFO - ============================================================
+2026-02-21 21:06:31 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-21 21:10:00 - root - INFO - Checking exit signals at 2026-02-21 21:10:00.333924 (Binance: 2026-02-21 21:10:00.129000)
+2026-02-21 21:10:00 - root - INFO - 
+============================================================
+2026-02-21 21:10:00 - root - INFO - Checking signals at 2026-02-21 21:10:00.636426 (Binance: 2026-02-21 21:10:00.444000)
+2026-02-21 21:10:00 - root - INFO - ============================================================
+2026-02-21 21:10:01 - root - INFO - Klines freshness check: Fresh data (closed 301.8s ago)
+2026-02-21 21:10:01 - root - INFO - Signal Analysis: {'current_rsi': np.float64(61.37), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.True_, 'current_high_higher': np.True_, 'current_high': 68519.9, 'previous_high': 68500.0, 'previous_close': 68499.9, 'current_close': 68501.1}
+2026-02-21 21:10:01 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 61.37)
+2026-02-21 21:10:01 - root - INFO - 
+📊 Status Report at 2026-02-21 21:10:01.972261
+2026-02-21 21:10:01 - root - INFO - Open trades: 0/5
+2026-02-21 21:10:01 - root - INFO - Closed trades: 0
+2026-02-21 21:10:01 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-22 10:04:23 - root - INFO - ============================================================
+2026-02-22 10:04:23 - root - INFO - Initializing Trading Bot
+2026-02-22 10:04:23 - root - INFO - ============================================================
+2026-02-22 10:04:24 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-22 10:04:24 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-22 10:04:24 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-22 10:04:24 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-22 10:04:24 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-22 10:04:24 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-22 10:04:24 - root - INFO - 
+============================================================
+2026-02-22 10:04:24 - root - INFO - Synchronizing positions with Binance...
+2026-02-22 10:04:24 - root - INFO - ============================================================
+2026-02-22 10:04:24 - binance_api - ERROR - Error fetching positions: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-22 10:04:24 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-22 10:04:24 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-22 10:04:24 - root - INFO - ============================================================
+
+2026-02-22 10:04:25 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-22 10:04:25 - root - WARNING - Could not set leverage to 2x
+2026-02-22 10:04:25 - root - INFO - ============================================================
+2026-02-22 10:04:25 - root - INFO - Bot initialized successfully!
+2026-02-22 10:04:25 - root - INFO - ============================================================
+2026-02-22 10:04:25 - root - INFO - 
+============================================================
+2026-02-22 10:04:25 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-22 10:04:25 - root - INFO - Timeframe: 5m
+2026-02-22 10:04:25 - root - INFO - Next check in 34.8 seconds
+2026-02-22 10:04:25 - root - INFO - ============================================================
+2026-02-22 10:04:25 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-22 10:05:00 - root - INFO - Checking exit signals at 2026-02-22 10:05:00.779986 (Binance: 2026-02-22 10:05:00.620000)
+2026-02-22 10:05:01 - root - INFO - 
+============================================================
+2026-02-22 10:05:01 - root - INFO - Checking signals at 2026-02-22 10:05:01.022666 (Binance: 2026-02-22 10:05:00.789000)
+2026-02-22 10:05:01 - root - INFO - ============================================================
+2026-02-22 10:05:02 - root - INFO - Klines freshness check: Fresh data (closed 302.2s ago)
+2026-02-22 10:05:02 - root - INFO - Signal Analysis: {'current_rsi': np.float64(49.44), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.False_, 'current_high_higher': np.True_, 'current_high': 68016.9, 'previous_high': 67994.5, 'previous_close': 67971.9, 'current_close': 67980.0}
+2026-02-22 10:05:02 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 49.44) | Previous candle not bullish
+2026-02-22 10:05:02 - root - INFO - 
+📊 Status Report at 2026-02-22 10:05:02.424062
+2026-02-22 10:05:02 - root - INFO - Open trades: 0/5
+2026-02-22 10:05:02 - root - INFO - Closed trades: 0
+2026-02-22 10:05:02 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-22 10:09:59 - root - INFO - Checking exit signals at 2026-02-22 10:09:59.479712 (Binance: 2026-02-22 10:09:59.164000)
+2026-02-22 10:09:59 - root - INFO - 
+============================================================
+2026-02-22 10:09:59 - root - INFO - Checking signals at 2026-02-22 10:09:59.682473 (Binance: 2026-02-22 10:09:59.482000)
+2026-02-22 10:09:59 - root - INFO - ============================================================
+2026-02-22 10:10:02 - root - INFO - Klines freshness check: Fresh data (closed 302.4s ago)
+2026-02-22 10:10:02 - root - INFO - Signal Analysis: {'current_rsi': np.float64(50.18), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.False_, 'current_high_higher': np.True_, 'current_high': 68019.9, 'previous_high': 68016.9, 'previous_close': 67965.8, 'current_close': 67986.2}
+2026-02-22 10:10:02 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 50.18) | Previous candle not bullish
+2026-02-22 10:10:02 - root - INFO - 
+📊 Status Report at 2026-02-22 10:10:02.751133
+2026-02-22 10:10:02 - root - INFO - Open trades: 0/5
+2026-02-22 10:10:02 - root - INFO - Closed trades: 0
+2026-02-22 10:10:02 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-22 10:14:56 - root - INFO - Checking exit signals at 2026-02-22 10:14:56.618042 (Binance: 2026-02-22 10:14:56.477000)
+2026-02-22 10:14:56 - root - INFO - 
+============================================================
+2026-02-22 10:14:56 - root - INFO - Checking signals at 2026-02-22 10:14:56.746357 (Binance: 2026-02-22 10:14:56.604000)
+2026-02-22 10:14:56 - root - INFO - ============================================================
+2026-02-22 10:14:58 - root - INFO - Klines freshness check: Fresh data (closed 297.9s ago)
+2026-02-22 10:14:58 - root - INFO - Signal Analysis: {'current_rsi': np.float64(46.62), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.False_, 'current_high_higher': np.False_, 'current_high': 67965.0, 'previous_high': 68019.9, 'previous_close': 67959.3, 'current_close': 67951.3}
+2026-02-22 10:14:58 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 46.62) | Previous candle not bullish | Current high not higher than previous high
+2026-02-22 10:14:58 - root - INFO - 
+📊 Status Report at 2026-02-22 10:14:58.086555
+2026-02-22 10:14:58 - root - INFO - Open trades: 0/5
+2026-02-22 10:14:58 - root - INFO - Closed trades: 0
+2026-02-22 10:14:58 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-22 10:14:59 - root - INFO - Checking exit signals at 2026-02-22 10:14:59.003724 (Binance: 2026-02-22 10:14:58.779000)
+2026-02-22 10:14:59 - root - INFO - 
+============================================================
+2026-02-22 10:14:59 - root - INFO - Checking signals at 2026-02-22 10:14:59.312177 (Binance: 2026-02-22 10:14:59)
+2026-02-22 10:14:59 - root - INFO - ============================================================
+2026-02-22 10:15:00 - root - INFO - Klines freshness check: Fresh data (closed 300.5s ago)
+2026-02-22 10:15:00 - root - INFO - Signal Analysis: {'current_rsi': np.float64(46.62), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.False_, 'current_high_higher': np.False_, 'current_high': 67965.0, 'previous_high': 68019.9, 'previous_close': 67959.3, 'current_close': 67951.3}
+2026-02-22 10:15:00 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 46.62) | Previous candle not bullish | Current high not higher than previous high
+2026-02-22 10:15:00 - root - INFO - 
+📊 Status Report at 2026-02-22 10:15:00.749267
+2026-02-22 10:15:00 - root - INFO - Open trades: 0/5
+2026-02-22 10:15:00 - root - INFO - Closed trades: 0
+2026-02-22 10:15:00 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-22 10:19:58 - root - INFO - Checking exit signals at 2026-02-22 10:19:58.925664 (Binance: 2026-02-22 10:19:58.707000)
+2026-02-22 10:19:59 - root - INFO - 
+============================================================
+2026-02-22 10:19:59 - root - INFO - Checking signals at 2026-02-22 10:19:59.232102 (Binance: 2026-02-22 10:19:58.952000)
+2026-02-22 10:19:59 - root - INFO - ============================================================
+2026-02-22 10:20:00 - root - INFO - Klines freshness check: Fresh data (closed 300.4s ago)
+2026-02-22 10:20:00 - root - INFO - Signal Analysis: {'current_rsi': np.float64(46.41), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.False_, 'current_high_higher': np.True_, 'current_high': 67968.2, 'previous_high': 67965.0, 'previous_close': 67951.3, 'current_close': 67949.4}
+2026-02-22 10:20:00 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 46.41) | Previous candle not bullish
+2026-02-22 10:20:00 - root - INFO - 
+📊 Status Report at 2026-02-22 10:20:00.569749
+2026-02-22 10:20:00 - root - INFO - Open trades: 0/5
+2026-02-22 10:20:00 - root - INFO - Closed trades: 0
+2026-02-22 10:20:00 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-22 10:24:59 - root - INFO - Checking exit signals at 2026-02-22 10:24:59.073810 (Binance: 2026-02-22 10:24:58.938000)
+2026-02-22 10:24:59 - root - INFO - 
+============================================================
+2026-02-22 10:24:59 - root - INFO - Checking signals at 2026-02-22 10:24:59.360926 (Binance: 2026-02-22 10:24:59.113000)
+2026-02-22 10:24:59 - root - INFO - ============================================================
+2026-02-22 10:25:00 - root - INFO - Klines freshness check: Fresh data (closed 300.7s ago)
+2026-02-22 10:25:00 - root - INFO - Signal Analysis: {'current_rsi': np.float64(48.96), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.False_, 'current_high_higher': np.True_, 'current_high': 67972.7, 'previous_high': 67968.2, 'previous_close': 67947.4, 'current_close': 67969.1}
+2026-02-22 10:25:00 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 48.96) | Previous candle not bullish
+2026-02-22 10:25:00 - root - INFO - 
+📊 Status Report at 2026-02-22 10:25:00.904540
+2026-02-22 10:25:00 - root - INFO - Open trades: 0/5
+2026-02-22 10:25:00 - root - INFO - Closed trades: 0
+2026-02-22 10:25:00 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-22 10:29:57 - root - INFO - Checking exit signals at 2026-02-22 10:29:57.347545 (Binance: 2026-02-22 10:29:57.134000)
+2026-02-22 10:29:57 - root - INFO - 
+============================================================
+2026-02-22 10:29:57 - root - INFO - Checking signals at 2026-02-22 10:29:57.564525 (Binance: 2026-02-22 10:29:57.437000)
+2026-02-22 10:29:57 - root - INFO - ============================================================
+2026-02-22 10:29:58 - root - INFO - Klines freshness check: Fresh data (closed 298.8s ago)
+2026-02-22 10:29:58 - root - INFO - Signal Analysis: {'current_rsi': np.float64(46.71), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.True_, 'current_high_higher': np.True_, 'current_high': 67979.3, 'previous_high': 67972.7, 'previous_close': 67970.1, 'current_close': 67950.1}
+2026-02-22 10:29:58 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 46.71)
+2026-02-22 10:29:58 - root - INFO - 
+📊 Status Report at 2026-02-22 10:29:58.987670
+2026-02-22 10:29:58 - root - INFO - Open trades: 0/5
+2026-02-22 10:29:58 - root - INFO - Closed trades: 0
+2026-02-22 10:29:58 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-22 10:29:59 - root - INFO - Checking exit signals at 2026-02-22 10:29:59.799745 (Binance: 2026-02-22 10:29:59.637000)
+2026-02-22 10:30:00 - root - INFO - 
+============================================================
+2026-02-22 10:30:00 - root - INFO - Checking signals at 2026-02-22 10:30:00.006570 (Binance: 2026-02-22 10:29:59.794000)
+2026-02-22 10:30:00 - root - INFO - ============================================================
+2026-02-22 10:30:01 - root - INFO - Klines freshness check: Fresh data (closed 301.4s ago)
+2026-02-22 10:30:01 - root - INFO - Signal Analysis: {'current_rsi': np.float64(46.73), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.True_, 'current_high_higher': np.True_, 'current_high': 67979.3, 'previous_high': 67972.7, 'previous_close': 67970.1, 'current_close': 67950.2}
+2026-02-22 10:30:01 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 46.73)
+2026-02-22 10:30:01 - root - INFO - 
+📊 Status Report at 2026-02-22 10:30:01.655442
+2026-02-22 10:30:01 - root - INFO - Open trades: 0/5
+2026-02-22 10:30:01 - root - INFO - Closed trades: 0
+2026-02-22 10:30:01 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-22 10:34:58 - root - INFO - Checking exit signals at 2026-02-22 10:34:58.872335 (Binance: 2026-02-22 10:34:58.713000)
+2026-02-22 10:34:59 - root - INFO - 
+============================================================
+2026-02-22 10:34:59 - root - INFO - Checking signals at 2026-02-22 10:34:59.015290 (Binance: 2026-02-22 10:34:58.869000)
+2026-02-22 10:34:59 - root - INFO - ============================================================
+2026-02-22 10:35:00 - root - INFO - Klines freshness check: Fresh data (closed 300.2s ago)
+2026-02-22 10:35:00 - root - INFO - Signal Analysis: {'current_rsi': np.float64(45.48), 'rsi_below_threshold': np.False_, 'previous_is_bullish': np.False_, 'current_high_higher': np.True_, 'current_high': 67983.3, 'previous_high': 67979.3, 'previous_close': 67950.2, 'current_close': 67939.7}
+2026-02-22 10:35:00 - root - INFO - ℹ No entry signal. Reason: RSI not below 34 (current: 45.48) | Previous candle not bullish
+2026-02-22 10:35:00 - root - INFO - 
+📊 Status Report at 2026-02-22 10:35:00.357470
+2026-02-22 10:35:00 - root - INFO - Open trades: 0/5
+2026-02-22 10:35:00 - root - INFO - Closed trades: 0
+2026-02-22 10:35:00 - trade_manager - INFO - Trade state saved to trade_state.json
+2026-02-22 10:36:46 - root - INFO - ============================================================
+2026-02-22 10:36:46 - root - INFO - Initializing Trading Bot
+2026-02-22 10:36:46 - root - INFO - ============================================================
+2026-02-22 10:36:46 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-22 10:36:46 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-22 10:36:46 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-22 10:36:46 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-22 10:36:46 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-22 10:36:46 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-22 10:36:46 - root - INFO - 
+============================================================
+2026-02-22 10:36:46 - root - INFO - Synchronizing positions with Binance...
+2026-02-22 10:36:46 - root - INFO - ============================================================
+2026-02-22 10:36:47 - binance_api - ERROR - Error fetching positions: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-22 10:36:47 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-02-22 10:36:47 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-02-22 10:36:47 - root - INFO - ============================================================
+
+2026-02-22 10:36:47 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-22 10:36:47 - root - WARNING - Could not set leverage to 2x
+2026-02-22 10:36:47 - root - INFO - ============================================================
+2026-02-22 10:36:47 - root - INFO - Bot initialized successfully!
+2026-02-22 10:36:47 - root - INFO - ============================================================
+2026-02-22 10:36:47 - root - INFO - 
+============================================================
+2026-02-22 10:36:47 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-22 10:36:47 - root - INFO - Timeframe: 5m
+2026-02-22 10:36:47 - root - INFO - Next check in 192.7 seconds
+2026-02-22 10:36:47 - root - INFO - ============================================================
+2026-02-22 10:36:47 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-22 10:44:12 - root - INFO - ============================================================
+2026-02-22 10:44:12 - root - INFO - Initializing Trading Bot
+2026-02-22 10:44:12 - root - INFO - ============================================================
+2026-02-22 10:44:12 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-22 10:44:12 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-22 10:44:12 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-22 10:44:12 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-22 10:44:12 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-22 10:44:12 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-22 10:44:12 - root - INFO - 
+============================================================
+2026-02-22 10:44:12 - root - INFO - Synchronizing positions with Binance...
+2026-02-22 10:44:12 - root - INFO - ============================================================
+2026-02-22 10:44:13 - binance_api - INFO - Successfully fetched positions - 0 open position(s)
+2026-02-22 10:44:13 - root - INFO - ✓ No open positions on Binance for BTCUSDT
+2026-02-22 10:44:13 - root - INFO - ============================================================
+
+2026-02-22 10:44:14 - binance_api - INFO - Set leverage to 2x for BTCUSDT
+2026-02-22 10:44:14 - root - INFO - ============================================================
+2026-02-22 10:44:14 - root - INFO - Bot initialized successfully!
+2026-02-22 10:44:14 - root - INFO - ============================================================
+2026-02-22 10:44:14 - root - INFO - 
+============================================================
+2026-02-22 10:44:14 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-22 10:44:14 - root - INFO - Timeframe: 5m
+2026-02-22 10:44:14 - root - INFO - Next check in 45.7 seconds
+2026-02-22 10:44:14 - root - INFO - ============================================================
+2026-02-22 10:44:14 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-22 11:18:14 - root - INFO - ============================================================
+2026-02-22 11:18:14 - root - INFO - Initializing Trading Bot
+2026-02-22 11:18:14 - root - INFO - ============================================================
+2026-02-22 11:18:15 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-22 11:18:15 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-22 11:18:15 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-22 11:18:15 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-22 11:18:15 - trade_manager - INFO - Trade state loaded from trade_state.json
+2026-02-22 11:18:15 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-22 11:18:15 - root - INFO - 
+============================================================
+2026-02-22 11:18:15 - root - INFO - Synchronizing positions with Binance...
+2026-02-22 11:18:15 - root - INFO - ============================================================
+2026-02-22 11:18:16 - binance_api - INFO - Successfully fetched positions - 0 open position(s)
+2026-02-22 11:18:16 - root - INFO - ✓ No open positions on Binance for BTCUSDT
+2026-02-22 11:18:16 - root - INFO - ============================================================
+
+2026-02-22 11:18:16 - binance_api - INFO - Set leverage to 2x for BTCUSDT
+2026-02-22 11:18:16 - root - INFO - ============================================================
+2026-02-22 11:18:16 - root - INFO - Bot initialized successfully!
+2026-02-22 11:18:16 - root - INFO - ============================================================
+2026-02-22 11:18:17 - root - INFO - 
+============================================================
+2026-02-22 11:18:17 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-22 11:18:17 - root - INFO - Timeframe: 5m
+2026-02-22 11:18:17 - root - INFO - Next check in 103.2 seconds
+2026-02-22 11:18:17 - root - INFO - ============================================================
+2026-02-22 11:18:17 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-22 11:42:05 - root - INFO - ✓ PID file created: /home/roshan/BTC_scalp/bot.pid (PID: 17274)
+2026-02-22 11:42:05 - root - INFO - ✓ Signal handlers configured
+2026-02-22 11:42:05 - root - INFO - ============================================================
+2026-02-22 11:42:05 - root - INFO - Initializing Trading Bot
+2026-02-22 11:42:05 - root - INFO - ============================================================
+2026-02-22 11:42:06 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-22 11:42:06 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-22 11:42:06 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-22 11:42:06 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-22 11:42:06 - trade_manager - INFO - Trade state loaded from /home/roshan/BTC_scalp/trade_state.json
+2026-02-22 11:42:06 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-22 11:42:06 - root - INFO - 
+============================================================
+2026-02-22 11:42:06 - root - INFO - Synchronizing positions with Binance...
+2026-02-22 11:42:06 - root - INFO - ============================================================
+2026-02-22 11:42:07 - binance_api - INFO - Successfully fetched positions - 0 open position(s)
+2026-02-22 11:42:07 - root - INFO - ✓ No open positions on Binance for BTCUSDT
+2026-02-22 11:42:07 - root - INFO - ============================================================
+
+2026-02-22 11:42:07 - binance_api - INFO - Set leverage to 2x for BTCUSDT
+2026-02-22 11:42:07 - root - INFO - ============================================================
+2026-02-22 11:42:07 - root - INFO - Bot initialized successfully!
+2026-02-22 11:42:07 - root - INFO - ============================================================
+2026-02-22 11:42:07 - root - INFO - 
+============================================================
+2026-02-22 11:42:07 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-22 11:42:07 - root - INFO - Timeframe: 5m
+2026-02-22 11:42:07 - root - INFO - Next check in 172.2 seconds
+2026-02-22 11:42:07 - root - INFO - ============================================================
+2026-02-22 11:42:07 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-22 11:42:10 - root - INFO - 
+⏹ Received SIGTERM, initiating graceful shutdown...
+2026-02-22 11:42:10 - root - INFO - Scheduler stopped due to shutdown request
+2026-02-22 11:42:10 - root - INFO - 
+⏹ Bot stopped gracefully
+2026-02-22 11:42:10 - root - INFO - Performing cleanup...
+2026-02-22 11:42:10 - trade_manager - INFO - Trade state saved to /home/roshan/BTC_scalp/trade_state.json
+2026-02-22 11:42:10 - root - INFO - ✓ Trade state saved
+2026-02-22 11:42:10 - root - INFO - ✓ PID file removed
+2026-02-22 11:42:10 - root - INFO - ✓ Cleanup complete
+2026-02-22 11:51:22 - root - INFO - ✓ PID file created: /home/roshan/BTC_scalp/bot.pid (PID: 17563)
+2026-02-22 11:51:22 - root - INFO - ✓ Signal handlers configured
+2026-02-22 11:51:22 - root - INFO - ============================================================
+2026-02-22 11:51:22 - root - INFO - Initializing Trading Bot
+2026-02-22 11:51:22 - root - INFO - ============================================================
+2026-02-22 11:51:22 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-22 11:51:22 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-22 11:51:22 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-22 11:51:22 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-22 11:51:22 - trade_manager - INFO - Trade state loaded from /home/roshan/BTC_scalp/trade_state.json
+2026-02-22 11:51:22 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-22 11:51:22 - root - INFO - 
+============================================================
+2026-02-22 11:51:22 - root - INFO - Synchronizing positions with Binance...
+2026-02-22 11:51:22 - root - INFO - ============================================================
+2026-02-22 11:51:23 - binance_api - INFO - Successfully fetched positions - 0 open position(s)
+2026-02-22 11:51:23 - root - INFO - ✓ No open positions on Binance for BTCUSDT
+2026-02-22 11:51:23 - root - INFO - ============================================================
+
+2026-02-22 11:51:23 - binance_api - INFO - Set leverage to 2x for BTCUSDT
+2026-02-22 11:51:23 - root - INFO - ============================================================
+2026-02-22 11:51:23 - root - INFO - Bot initialized successfully!
+2026-02-22 11:51:23 - root - INFO - ============================================================
+2026-02-22 11:51:24 - root - INFO - 
+============================================================
+2026-02-22 11:51:24 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-22 11:51:24 - root - INFO - Timeframe: 5m
+2026-02-22 11:51:24 - root - INFO - Next check in 216.0 seconds
+2026-02-22 11:51:24 - root - INFO - ============================================================
+2026-02-22 11:51:24 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-22 14:07:57 - root - INFO - 
+⏹ Received SIGHUP, initiating graceful shutdown...
+2026-02-22 14:07:57 - root - INFO - Scheduler stopped due to shutdown request
+2026-02-22 14:07:57 - root - INFO - 
+⏹ Bot stopped gracefully
+2026-02-22 14:07:57 - root - INFO - Performing cleanup...
+2026-02-22 14:07:57 - trade_manager - INFO - Trade state saved to /home/roshan/BTC_scalp/trade_state.json
+2026-02-22 14:07:57 - root - INFO - ✓ Trade state saved
+2026-02-22 14:07:57 - root - INFO - ✓ PID file removed
+2026-02-22 14:07:57 - root - INFO - ✓ Cleanup complete
+2026-02-22 16:17:52 - root - INFO - ✓ PID file created: /home/roshan/BTC_scalp/bot.pid (PID: 9619)
+2026-02-22 16:17:52 - root - INFO - ✓ Signal handlers configured
+2026-02-22 16:17:52 - root - INFO - ============================================================
+2026-02-22 16:17:52 - root - INFO - Initializing Trading Bot
+2026-02-22 16:17:52 - root - INFO - ============================================================
+2026-02-22 16:17:53 - binance_api - INFO - Time offset synced: -123ms
+2026-02-22 16:17:53 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-22 16:17:53 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-22 16:17:53 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-22 16:17:53 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-22 16:17:53 - trade_manager - INFO - Trade state loaded from /home/roshan/BTC_scalp/trade_state.json
+2026-02-22 16:17:53 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-22 16:17:53 - root - INFO - 
+============================================================
+2026-02-22 16:17:53 - root - INFO - Synchronizing positions with Binance...
+2026-02-22 16:17:53 - root - INFO - ============================================================
+2026-02-22 16:17:54 - binance_api - INFO - Successfully fetched positions - 0 open position(s)
+2026-02-22 16:17:54 - root - INFO - ✓ No open positions on Binance for BTCUSDT
+2026-02-22 16:17:54 - root - INFO - ============================================================
+
+2026-02-22 16:17:54 - binance_api - INFO - Set leverage to 2x for BTCUSDT
+2026-02-22 16:17:54 - root - INFO - ============================================================
+2026-02-22 16:17:54 - root - INFO - Bot initialized successfully!
+2026-02-22 16:17:54 - root - INFO - ============================================================
+2026-02-22 16:17:55 - root - INFO - 
+⏹ Received SIGINT, initiating graceful shutdown...
+2026-02-22 16:17:55 - root - INFO - 
+============================================================
+2026-02-22 16:17:55 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-22 16:17:55 - root - INFO - Timeframe: 5m
+2026-02-22 16:17:55 - root - INFO - Next check in 125.0 seconds
+2026-02-22 16:17:55 - root - INFO - ============================================================
+2026-02-22 16:17:55 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-22 16:17:55 - root - INFO - Scheduler stopped due to shutdown request
+2026-02-22 16:17:55 - root - INFO - 
+⏹ Bot stopped gracefully
+2026-02-22 16:17:55 - root - INFO - Performing cleanup...
+2026-02-22 16:17:55 - trade_manager - INFO - Trade state saved to /home/roshan/BTC_scalp/trade_state.json
+2026-02-22 16:17:55 - root - INFO - ✓ Trade state saved
+2026-02-22 16:17:55 - root - INFO - ✓ PID file removed
+2026-02-22 16:17:55 - root - INFO - ✓ Cleanup complete
+2026-02-22 16:23:00 - root - INFO - ✓ PID file created: /home/roshan/BTC_scalp/bot.pid (PID: 9824)
+2026-02-22 16:23:00 - root - INFO - ✓ Signal handlers configured
+2026-02-22 16:23:00 - root - INFO - ============================================================
+2026-02-22 16:23:00 - root - INFO - Initializing Trading Bot
+2026-02-22 16:23:00 - root - INFO - ============================================================
+2026-02-22 16:23:01 - binance_api - INFO - Time offset synced: -180ms
+2026-02-22 16:23:01 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-22 16:23:01 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-22 16:23:01 - root - INFO - ✓ Connected to Binance Live Trading
+2026-02-22 16:23:01 - root - WARNING - ⚠ Running in Live Trading mode
+2026-02-22 16:23:01 - trade_manager - INFO - Trade state loaded from /home/roshan/BTC_scalp/trade_state.json
+2026-02-22 16:23:01 - root - INFO - ✓ Trade Manager initialized (Max trades: 5)
+2026-02-22 16:23:01 - root - INFO - 
+============================================================
+2026-02-22 16:23:01 - root - INFO - Synchronizing positions with Binance...
+2026-02-22 16:23:01 - root - INFO - ============================================================
+2026-02-22 16:23:02 - binance_api - INFO - Successfully fetched positions - 0 open position(s)
+2026-02-22 16:23:02 - root - INFO - ✓ No open positions on Binance for BTCUSDT
+2026-02-22 16:23:02 - root - INFO - ============================================================
+
+2026-02-22 16:23:02 - binance_api - INFO - Set leverage to 2x for BTCUSDT
+2026-02-22 16:23:02 - root - INFO - ============================================================
+2026-02-22 16:23:02 - root - INFO - Bot initialized successfully!
+2026-02-22 16:23:02 - root - INFO - ============================================================
+2026-02-22 16:23:02 - root - INFO - 
+============================================================
+2026-02-22 16:23:02 - root - INFO - Candle-Close Based Scheduling Activated
+2026-02-22 16:23:02 - root - INFO - Timeframe: 5m
+2026-02-22 16:23:02 - root - INFO - Next check in 117.5 seconds
+2026-02-22 16:23:02 - root - INFO - ============================================================
+2026-02-22 16:23:02 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-02-22 16:42:33 - root - INFO - 
+⏹ Received SIGHUP, initiating graceful shutdown...
+2026-02-22 16:42:33 - root - INFO - 
+⏹ Received SIGTERM, initiating graceful shutdown...
+2026-02-22 16:42:33 - root - INFO - Scheduler stopped due to shutdown request
+2026-02-22 16:42:33 - root - INFO - 
+⏹ Bot stopped gracefully
+2026-02-22 16:42:33 - root - INFO - Performing cleanup...
+2026-02-22 16:42:33 - trade_manager - INFO - Trade state saved to /home/roshan/BTC_scalp/trade_state.json
+2026-02-22 16:42:33 - root - INFO - ✓ Trade state saved
+2026-02-22 16:42:33 - root - INFO - ✓ PID file removed
+2026-02-22 16:42:33 - root - INFO - ✓ Cleanup complete
+2026-03-01 10:46:00 - root - INFO - ✓ PID file created: /home/roshan/BTC_scalp/bot.pid (PID: 35466)
+2026-03-01 10:46:00 - root - INFO - ✓ Signal handlers configured
+2026-03-01 10:46:00 - root - INFO - ============================================================
+2026-03-01 10:46:00 - root - INFO - Initializing Trading Bot
+2026-03-01 10:46:00 - root - INFO - ============================================================
+2026-03-01 10:46:01 - binance_api - INFO - Time offset synced: -181ms
+2026-03-01 10:46:01 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-03-01 10:46:01 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-03-01 10:46:01 - root - INFO - ✓ Connected to Binance Live Trading
+2026-03-01 10:46:01 - root - WARNING - ⚠ Running in Live Trading mode
+2026-03-01 10:46:01 - trade_manager - INFO - Trade state loaded from /home/roshan/BTC_scalp/trade_state.json
+2026-03-01 10:46:01 - trade_manager - INFO - RSI reset required: False
+2026-03-01 10:46:01 - root - INFO - ✓ Loaded RSI reset state: False
+2026-03-01 10:46:01 - root - INFO - ✓ Trade Manager initialized
+2026-03-01 10:46:01 - root - INFO -   Single trade size: 0.002 BTC
+2026-03-01 10:46:01 - root - INFO -   Max position size: 0.004 BTC
+2026-03-01 10:46:01 - root - INFO -   Max trades allowed: 2
+2026-03-01 10:46:01 - root - INFO - 
+============================================================
+2026-03-01 10:46:01 - root - INFO - Synchronizing positions with Binance...
+2026-03-01 10:46:01 - root - INFO - ============================================================
+2026-03-01 10:46:02 - binance_api - ERROR - Error fetching positions: APIError(code=-2015): Invalid API-key, IP, or permissions for action, request ip: 112.134.203.130
+2026-03-01 10:46:02 - root - WARNING - ⚠ Failed to fetch positions from Binance
+2026-03-01 10:46:02 - root - WARNING - ⚠ Position sync unavailable - check API credentials and network
+2026-03-01 10:46:02 - root - INFO - ============================================================
+
+2026-03-01 10:46:02 - binance_api - ERROR - Error setting leverage: APIError(code=-2015): Invalid API-key, IP, or permissions for action, request ip: 112.134.203.130
+2026-03-01 10:46:02 - root - WARNING - Could not set leverage to 2x
+2026-03-01 10:46:02 - root - INFO - ============================================================
+2026-03-01 10:46:02 - root - INFO - Bot initialized successfully!
+2026-03-01 10:46:02 - root - INFO - ============================================================
+2026-03-01 10:46:03 - root - INFO - 
+============================================================
+2026-03-01 10:46:03 - root - INFO - Candle-Close Based Scheduling Activated
+2026-03-01 10:46:03 - root - INFO - Timeframe: 5m
+2026-03-01 10:46:03 - root - INFO - Next check in 236.9 seconds
+2026-03-01 10:46:03 - root - INFO - ============================================================
+2026-03-01 10:46:03 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-03-01 10:46:14 - root - INFO - 
+⏹ Received SIGINT, initiating graceful shutdown...
+2026-03-01 10:46:14 - root - INFO - Scheduler stopped due to shutdown request
+2026-03-01 10:46:14 - root - INFO - 
+⏹ Bot stopped gracefully
+2026-03-01 10:46:14 - root - INFO - Performing cleanup...
+2026-03-01 10:46:14 - trade_manager - INFO - Trade state saved to /home/roshan/BTC_scalp/trade_state.json
+2026-03-01 10:46:14 - root - INFO - ✓ Trade state saved
+2026-03-01 10:46:14 - root - INFO - ✓ PID file removed
+2026-03-01 10:46:14 - root - INFO - ✓ Cleanup complete
+2026-03-01 10:53:25 - root - INFO - ✓ PID file created: /home/roshan/BTC_scalp/bot.pid (PID: 36813)
+2026-03-01 10:53:25 - root - INFO - ✓ Signal handlers configured
+2026-03-01 10:53:25 - root - INFO - ============================================================
+2026-03-01 10:53:25 - root - INFO - Initializing Trading Bot
+2026-03-01 10:53:25 - root - INFO - ============================================================
+2026-03-01 10:53:26 - binance_api - INFO - Time offset synced: -184ms
+2026-03-01 10:53:26 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-03-01 10:53:26 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-03-01 10:53:26 - root - INFO - ✓ Connected to Binance Live Trading
+2026-03-01 10:53:26 - root - WARNING - ⚠ Running in Live Trading mode
+2026-03-01 10:53:26 - trade_manager - INFO - Trade state loaded from /home/roshan/BTC_scalp/trade_state.json
+2026-03-01 10:53:26 - trade_manager - INFO - RSI reset required: False
+2026-03-01 10:53:26 - root - INFO - ✓ Loaded RSI reset state: False
+2026-03-01 10:53:26 - root - INFO - ✓ Trade Manager initialized
+2026-03-01 10:53:26 - root - INFO -   Single trade size: 0.002 BTC
+2026-03-01 10:53:26 - root - INFO -   Max position size: 0.004 BTC
+2026-03-01 10:53:26 - root - INFO -   Max trades allowed: 2
+2026-03-01 10:53:26 - root - INFO - 
+============================================================
+2026-03-01 10:53:26 - root - INFO - Synchronizing positions with Binance...
+2026-03-01 10:53:26 - root - INFO - ============================================================
+2026-03-01 10:53:27 - binance_api - INFO - Successfully fetched positions - 0 open position(s)
+2026-03-01 10:53:27 - root - INFO - ✓ No open positions on Binance for BTCUSDT
+2026-03-01 10:53:27 - root - INFO - ============================================================
+
+2026-03-01 10:53:27 - binance_api - INFO - Set leverage to 2x for BTCUSDT
+2026-03-01 10:53:27 - root - INFO - ============================================================
+2026-03-01 10:53:27 - root - INFO - Bot initialized successfully!
+2026-03-01 10:53:27 - root - INFO - ============================================================
+2026-03-01 10:53:28 - root - INFO - 
+============================================================
+2026-03-01 10:53:28 - root - INFO - Candle-Close Based Scheduling Activated
+2026-03-01 10:53:28 - root - INFO - Timeframe: 5m
+2026-03-01 10:53:28 - root - INFO - Next check in 92.1 seconds
+2026-03-01 10:53:28 - root - INFO - ============================================================
+2026-03-01 10:53:28 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-03-01 10:54:05 - root - INFO - 
+⏹ Received SIGINT, initiating graceful shutdown...
+2026-03-01 10:54:06 - root - INFO - Scheduler stopped due to shutdown request
+2026-03-01 10:54:06 - root - INFO - 
+⏹ Bot stopped gracefully
+2026-03-01 10:54:06 - root - INFO - Performing cleanup...
+2026-03-01 10:54:06 - trade_manager - INFO - Trade state saved to /home/roshan/BTC_scalp/trade_state.json
+2026-03-01 10:54:06 - root - INFO - ✓ Trade state saved
+2026-03-01 10:54:06 - root - INFO - ✓ PID file removed
+2026-03-01 10:54:06 - root - INFO - ✓ Cleanup complete
+2026-03-01 14:43:49 - root - INFO - ✓ PID file created: /home/roshan/BTC_scalp/bot.pid (PID: 7502)
+2026-03-01 14:43:49 - root - INFO - ✓ Signal handlers configured
+2026-03-01 14:43:49 - root - INFO - ============================================================
+2026-03-01 14:43:49 - root - INFO - Initializing Trading Bot
+2026-03-01 14:43:49 - root - INFO - ============================================================
+2026-03-01 14:43:49 - root - INFO - ✓ Telegram notifier initialized (enabled: True)
+2026-03-01 14:43:49 - binance_api - INFO - Time offset synced: -152ms
+2026-03-01 14:43:49 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-03-01 14:43:49 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-03-01 14:43:49 - root - INFO - ✓ Connected to Binance Live Trading
+2026-03-01 14:43:49 - root - WARNING - ⚠ Running in Live Trading mode
+2026-03-01 14:43:49 - trade_manager - INFO - Trade state loaded from /home/roshan/BTC_scalp/trade_state.json
+2026-03-01 14:43:49 - trade_manager - INFO - RSI reset required: False
+2026-03-01 14:43:49 - root - INFO - ✓ Loaded RSI reset state: False
+2026-03-01 14:43:49 - root - INFO - ✓ Trade Manager initialized
+2026-03-01 14:43:49 - root - INFO -   Single trade size: 0.002 BTC
+2026-03-01 14:43:49 - root - INFO -   Max position size: 0.004 BTC
+2026-03-01 14:43:49 - root - INFO -   Max trades allowed: 2
+2026-03-01 14:43:49 - root - INFO - 
+============================================================
+2026-03-01 14:43:49 - root - INFO - Synchronizing positions with Binance...
+2026-03-01 14:43:49 - root - INFO - ============================================================
+2026-03-01 14:43:50 - binance_api - INFO - Successfully fetched positions - 0 open position(s)
+2026-03-01 14:43:50 - root - INFO - ✓ No open positions on Binance for BTCUSDT
+2026-03-01 14:43:50 - root - INFO - ============================================================
+
+2026-03-01 14:43:50 - binance_api - INFO - Set leverage to 2x for BTCUSDT
+2026-03-01 14:43:50 - root - INFO - ============================================================
+2026-03-01 14:43:50 - root - INFO - Bot initialized successfully!
+2026-03-01 14:43:50 - root - INFO - ============================================================
+2026-03-01 14:43:51 - root - INFO - 
+============================================================
+2026-03-01 14:43:51 - root - INFO - Candle-Close Based Scheduling Activated
+2026-03-01 14:43:51 - root - INFO - Timeframe: 5m
+2026-03-01 14:43:51 - root - INFO - Next check in 68.8 seconds
+2026-03-01 14:43:51 - root - INFO - ============================================================
+2026-03-01 14:43:51 - root - INFO - Press Ctrl+C to stop the bot
+
+2026-03-01 14:45:00 - root - INFO - Checking exit signals at 2026-03-01 14:45:00.616150 (Binance: 2026-03-01 14:45:00.513000)
+2026-03-01 14:45:00 - root - INFO - 
+============================================================
+2026-03-01 14:45:00 - root - INFO - Checking signals at 2026-03-01 14:45:00.897020 (Binance: 2026-03-01 14:45:00.735000)
+2026-03-01 14:45:00 - root - INFO - ============================================================
+2026-03-01 14:45:04 - root - INFO - Position check: 0.0000/0.0040 BTC (0/2 trades)
+2026-03-01 14:45:05 - root - INFO - Klines freshness check: Fresh data (closed 305.4s ago)
+2026-03-01 14:45:05 - root - INFO - Last candle: Bullish=False, RSI=34.11, High=$66618.10
+2026-03-01 14:45:05 - root - INFO - ℹ Last candle not bullish (open $66594.60, close $66577.60)
+2026-03-01 14:45:06 - root - INFO - 
+📊 Status Report at 2026-03-01 14:45:06.135982
+2026-03-01 14:45:06 - root - INFO - Position: 0.0000/0.0040 BTC (0/2 trades)
+2026-03-01 14:45:06 - root - INFO - RSI reset required: False
+2026-03-01 14:45:06 - root - INFO - Closed trades (session): 0
+2026-03-01 14:45:06 - trade_manager - INFO - Trade state saved to /home/roshan/BTC_scalp/trade_state.json
+2026-03-01 14:46:12 - root - INFO - 
+⏹ Received SIGHUP, initiating graceful shutdown...
+2026-03-01 14:46:12 - root - INFO - Scheduler stopped due to shutdown request
+2026-03-01 14:46:12 - root - INFO - 
+⏹ Bot stopped gracefully
+2026-03-01 14:46:12 - root - INFO - Performing cleanup...
+2026-03-01 14:46:12 - trade_manager - INFO - Trade state saved to /home/roshan/BTC_scalp/trade_state.json
+2026-03-01 14:46:12 - root - INFO - ✓ Trade state saved
+2026-03-01 14:46:12 - root - INFO - ✓ PID file removed
+2026-03-01 14:46:12 - root - INFO - ✓ Cleanup complete

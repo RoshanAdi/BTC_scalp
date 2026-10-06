@@ -1,0 +1,16 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+.env
+.env.*
+trade_state.json
+trades.csv
+bot_output.txt
+.DS_Store
+.idea/
+.vscode/

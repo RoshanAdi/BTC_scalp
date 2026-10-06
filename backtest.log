@@ -1,0 +1,440 @@
+2026-02-22 11:32:47 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-22 11:32:47 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-22 11:32:47 - root - INFO - Fetching BTCUSDT 5m data from 2020-01-01 00:00:00 to 2020-12-31 00:00:00
+2026-02-22 11:33:07 - root - INFO - Backtest complete
+2026-02-22 11:33:07 - root - INFO - Total trades: 219
+2026-02-22 11:33:07 - root - INFO - Win rate: 100.00%
+2026-02-22 11:33:07 - root - INFO - Total PnL: 481.800000
+2026-02-22 11:33:07 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-22 11:33:07 - root - INFO - Saved trades to trades.csv
+2026-02-22 11:33:34 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-22 11:33:34 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-22 11:33:34 - root - INFO - Fetching BTCUSDT 5m data from 2022-01-01 00:00:00 to 2022-12-31 00:00:00
+2026-02-22 11:33:54 - root - INFO - Backtest complete
+2026-02-22 11:33:54 - root - INFO - Total trades: 127
+2026-02-22 11:33:54 - root - INFO - Win rate: 100.00%
+2026-02-22 11:33:54 - root - INFO - Total PnL: 279.400000
+2026-02-22 11:33:54 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-22 11:33:54 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:15:39 - binance_api - INFO - Time offset synced: -135ms
+2026-02-23 09:15:39 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:15:39 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:15:39 - root - INFO - Fetching BTCUSDT 5m data from 2022-01-01 00:00:00 to 2022-12-31 00:00:00
+2026-02-23 09:15:57 - root - INFO - Backtest complete
+2026-02-23 09:15:57 - root - INFO - Total trades: 127
+2026-02-23 09:15:57 - root - INFO - Win rate: 100.00%
+2026-02-23 09:15:57 - root - INFO - Total PnL: 279.400000
+2026-02-23 09:15:57 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-23 09:15:57 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:17:23 - binance_api - INFO - Time offset synced: -284ms
+2026-02-23 09:17:23 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:17:23 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:17:23 - root - INFO - Fetching BTCUSDT 5m data from 2020-01-01 00:00:00 to 2020-12-31 00:00:00
+2026-02-23 09:17:43 - root - INFO - Backtest complete
+2026-02-23 09:17:43 - root - INFO - Total trades: 219
+2026-02-23 09:17:43 - root - INFO - Win rate: 100.00%
+2026-02-23 09:17:43 - root - INFO - Total PnL: 481.800000
+2026-02-23 09:17:43 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-23 09:17:43 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:24:09 - binance_api - INFO - Time offset synced: -113ms
+2026-02-23 09:24:09 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:24:09 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:24:09 - root - INFO - Fetching BTCUSDT 5m data from 2020-01-01 00:00:00 to 2020-12-31 00:00:00
+2026-02-23 09:24:29 - root - INFO - Backtest complete
+2026-02-23 09:24:29 - root - INFO - Total trades: 196
+2026-02-23 09:24:29 - root - INFO - Win rate: 100.00%
+2026-02-23 09:24:29 - root - INFO - Total PnL: 431.200000
+2026-02-23 09:24:29 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-23 09:24:29 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:24:47 - binance_api - INFO - Time offset synced: -161ms
+2026-02-23 09:24:47 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:24:47 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:24:47 - root - INFO - Fetching BTCUSDT 5m data from 2022-01-01 00:00:00 to 2022-12-31 00:00:00
+2026-02-23 09:25:08 - root - INFO - Backtest complete
+2026-02-23 09:25:08 - root - INFO - Total trades: 87
+2026-02-23 09:25:08 - root - INFO - Win rate: 100.00%
+2026-02-23 09:25:08 - root - INFO - Total PnL: 191.400000
+2026-02-23 09:25:08 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-23 09:25:08 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:28:44 - binance_api - INFO - Time offset synced: -110ms
+2026-02-23 09:28:44 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:28:44 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:28:44 - root - INFO - Fetching BTCUSDT 5m data from 2021-01-01 00:00:00 to 2021-12-31 00:00:00
+2026-02-23 09:29:03 - root - INFO - Backtest complete
+2026-02-23 09:29:03 - root - INFO - Total trades: 164
+2026-02-23 09:29:03 - root - INFO - Win rate: 100.00%
+2026-02-23 09:29:03 - root - INFO - Total PnL: 360.800000
+2026-02-23 09:29:03 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-23 09:29:03 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:30:24 - binance_api - INFO - Time offset synced: -118ms
+2026-02-23 09:30:24 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:30:24 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:30:24 - root - INFO - Fetching BTCUSDT 5m data from 2021-01-01 00:00:00 to 2021-12-31 00:00:00
+2026-02-23 09:30:44 - root - INFO - Backtest complete
+2026-02-23 09:30:44 - root - INFO - Total trades: 244
+2026-02-23 09:30:44 - root - INFO - Win rate: 100.00%
+2026-02-23 09:30:44 - root - INFO - Total PnL: 244.000000
+2026-02-23 09:30:44 - root - INFO - Avg PnL per trade: 1.000000
+2026-02-23 09:30:44 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:31:36 - binance_api - INFO - Time offset synced: -197ms
+2026-02-23 09:31:36 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:31:36 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:31:36 - root - INFO - Fetching BTCUSDT 5m data from 2022-01-01 00:00:00 to 2022-12-31 00:00:00
+2026-02-23 09:31:55 - root - INFO - Backtest complete
+2026-02-23 09:31:55 - root - INFO - Total trades: 158
+2026-02-23 09:31:55 - root - INFO - Win rate: 100.00%
+2026-02-23 09:31:55 - root - INFO - Total PnL: 158.000000
+2026-02-23 09:31:55 - root - INFO - Avg PnL per trade: 1.000000
+2026-02-23 09:31:55 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:34:27 - binance_api - INFO - Time offset synced: -271ms
+2026-02-23 09:34:27 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:34:27 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:34:27 - root - INFO - Fetching BTCUSDT 5m data from 2025-01-01 00:00:00 to 2025-12-31 00:00:00
+2026-02-23 09:34:46 - root - INFO - Backtest complete
+2026-02-23 09:34:46 - root - INFO - Total trades: 208
+2026-02-23 09:34:46 - root - INFO - Win rate: 100.00%
+2026-02-23 09:34:46 - root - INFO - Total PnL: 208.000000
+2026-02-23 09:34:46 - root - INFO - Avg PnL per trade: 1.000000
+2026-02-23 09:34:46 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:37:04 - binance_api - INFO - Time offset synced: -167ms
+2026-02-23 09:37:04 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:37:04 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:37:04 - root - INFO - Fetching BTCUSDT 5m data from 2025-01-01 00:00:00 to 2025-12-31 00:00:00
+2026-02-23 09:37:21 - root - INFO - Backtest complete
+2026-02-23 09:37:21 - root - INFO - Total trades: 203
+2026-02-23 09:37:21 - root - INFO - Win rate: 100.00%
+2026-02-23 09:37:21 - root - INFO - Total PnL: 284.200000
+2026-02-23 09:37:21 - root - INFO - Avg PnL per trade: 1.400000
+2026-02-23 09:37:21 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:37:51 - binance_api - INFO - Time offset synced: -104ms
+2026-02-23 09:37:51 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:37:51 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:37:51 - root - INFO - Fetching BTCUSDT 5m data from 2022-01-01 00:00:00 to 2022-12-31 00:00:00
+2026-02-23 09:38:10 - root - INFO - Backtest complete
+2026-02-23 09:38:10 - root - INFO - Total trades: 107
+2026-02-23 09:38:10 - root - INFO - Win rate: 100.00%
+2026-02-23 09:38:10 - root - INFO - Total PnL: 149.800000
+2026-02-23 09:38:10 - root - INFO - Avg PnL per trade: 1.400000
+2026-02-23 09:38:10 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:39:02 - binance_api - INFO - Time offset synced: -191ms
+2026-02-23 09:39:02 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:39:02 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:39:02 - root - INFO - Fetching BTCUSDT 5m data from 2021-01-01 00:00:00 to 2021-12-31 00:00:00
+2026-02-23 09:39:20 - root - INFO - Backtest complete
+2026-02-23 09:39:20 - root - INFO - Total trades: 234
+2026-02-23 09:39:20 - root - INFO - Win rate: 100.00%
+2026-02-23 09:39:20 - root - INFO - Total PnL: 327.600000
+2026-02-23 09:39:20 - root - INFO - Avg PnL per trade: 1.400000
+2026-02-23 09:39:20 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:40:10 - binance_api - INFO - Time offset synced: -187ms
+2026-02-23 09:40:10 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:40:10 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:40:10 - root - INFO - Fetching BTCUSDT 5m data from 2021-01-01 00:00:00 to 2021-12-31 00:00:00
+2026-02-23 09:40:31 - root - INFO - Backtest complete
+2026-02-23 09:40:31 - root - INFO - Total trades: 217
+2026-02-23 09:40:31 - root - INFO - Win rate: 100.00%
+2026-02-23 09:40:31 - root - INFO - Total PnL: 477.400000
+2026-02-23 09:40:31 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-23 09:40:31 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:41:01 - binance_api - INFO - Time offset synced: -189ms
+2026-02-23 09:41:01 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:41:01 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:41:01 - root - INFO - Fetching BTCUSDT 5m data from 2020-01-01 00:00:00 to 2020-12-31 00:00:00
+2026-02-23 09:41:18 - root - INFO - Backtest complete
+2026-02-23 09:41:18 - root - INFO - Total trades: 260
+2026-02-23 09:41:18 - root - INFO - Win rate: 100.00%
+2026-02-23 09:41:18 - root - INFO - Total PnL: 572.000000
+2026-02-23 09:41:18 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-23 09:41:18 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:41:42 - binance_api - INFO - Time offset synced: -285ms
+2026-02-23 09:41:42 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:41:42 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:41:42 - root - INFO - Fetching BTCUSDT 5m data from 2022-01-01 00:00:00 to 2022-12-31 00:00:00
+2026-02-23 09:42:01 - root - INFO - Backtest complete
+2026-02-23 09:42:01 - root - INFO - Total trades: 134
+2026-02-23 09:42:01 - root - INFO - Win rate: 100.00%
+2026-02-23 09:42:01 - root - INFO - Total PnL: 294.800000
+2026-02-23 09:42:01 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-23 09:42:01 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:43:38 - binance_api - INFO - Time offset synced: -296ms
+2026-02-23 09:43:38 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:43:38 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:43:38 - root - INFO - Fetching BTCUSDT 5m data from 2025-01-01 00:00:00 to 2025-12-31 00:00:00
+2026-02-23 09:43:58 - root - INFO - Backtest complete
+2026-02-23 09:43:58 - root - INFO - Total trades: 159
+2026-02-23 09:43:58 - root - INFO - Win rate: 100.00%
+2026-02-23 09:43:58 - root - INFO - Total PnL: 349.800000
+2026-02-23 09:43:58 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-23 09:43:58 - root - INFO - Saved trades to trades.csv
+2026-02-23 09:45:00 - binance_api - INFO - Time offset synced: -106ms
+2026-02-23 09:45:00 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 09:45:00 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 09:45:00 - root - INFO - Fetching BTCUSDT 5m data from 2026-01-01 00:00:00 to 2026-12-31 00:00:00
+2026-02-23 09:45:05 - root - INFO - Backtest complete
+2026-02-23 09:45:05 - root - INFO - Total trades: 20
+2026-02-23 09:45:05 - root - INFO - Win rate: 100.00%
+2026-02-23 09:45:05 - root - INFO - Total PnL: 44.000000
+2026-02-23 09:45:05 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-23 09:45:05 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:07:23 - binance_api - INFO - Time offset synced: -166ms
+2026-02-23 14:07:23 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:07:23 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:07:23 - root - INFO - Fetching BTCUSDT 1m data from 2022-01-01 00:00:00 to 2022-12-31 00:00:00
+2026-02-23 14:08:45 - root - INFO - Backtest complete
+2026-02-23 14:08:45 - root - INFO - Total trades: 385
+2026-02-23 14:08:45 - root - INFO - Win rate: 100.00%
+2026-02-23 14:08:45 - root - INFO - Total PnL: 231.000000
+2026-02-23 14:08:45 - root - INFO - Avg PnL per trade: 0.600000
+2026-02-23 14:08:45 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:14:32 - binance_api - INFO - Time offset synced: -69ms
+2026-02-23 14:14:32 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:14:32 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:14:32 - root - INFO - Fetching BTCUSDT 1m data from 2023-01-01 00:00:00 to 2023-12-31 00:00:00
+2026-02-23 14:16:00 - root - INFO - Backtest complete
+2026-02-23 14:16:00 - root - INFO - Total trades: 1067
+2026-02-23 14:16:00 - root - INFO - Win rate: 100.00%
+2026-02-23 14:16:00 - root - INFO - Total PnL: 640.200000
+2026-02-23 14:16:00 - root - INFO - Avg PnL per trade: 0.600000
+2026-02-23 14:16:00 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:17:54 - binance_api - INFO - Time offset synced: -172ms
+2026-02-23 14:17:54 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:17:54 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:17:54 - root - INFO - Fetching BTCUSDT 1m data from 2023-01-01 00:00:00 to 2023-12-31 00:00:00
+2026-02-23 14:18:53 - binance_api - INFO - Time offset synced: -192ms
+2026-02-23 14:18:53 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:18:53 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:18:53 - root - INFO - Fetching BTCUSDT 1m data from 2023-01-01 00:00:00 to 2023-12-31 00:00:00
+2026-02-23 14:20:05 - binance_api - INFO - Time offset synced: -104ms
+2026-02-23 14:20:05 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:20:05 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:20:05 - root - INFO - Fetching BTCUSDT 1m data from 2023-01-01 00:00:00 to 2023-12-31 00:00:00
+2026-02-23 14:23:18 - binance_api - INFO - Time offset synced: -200ms
+2026-02-23 14:23:18 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:23:18 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:23:18 - root - INFO - Fetching BTCUSDT 1m data from 2023-01-01 00:00:00 to 2023-06-30 00:00:00
+2026-02-23 14:24:04 - root - INFO - Backtest complete
+2026-02-23 14:24:04 - root - INFO - Total trades: 507
+2026-02-23 14:24:04 - root - INFO - Win rate: 100.00%
+2026-02-23 14:24:04 - root - INFO - Total PnL: 405.600000
+2026-02-23 14:24:04 - root - INFO - Avg PnL per trade: 0.800000
+2026-02-23 14:24:04 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:27:53 - binance_api - INFO - Time offset synced: -135ms
+2026-02-23 14:27:53 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:27:53 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:27:53 - root - INFO - Fetching BTCUSDT 1m data from 2023-01-01 00:00:00 to 2023-06-30 00:00:00
+2026-02-23 14:28:36 - root - INFO - Backtest complete
+2026-02-23 14:28:36 - root - INFO - Total trades: 436
+2026-02-23 14:28:36 - root - INFO - Win rate: 100.00%
+2026-02-23 14:28:36 - root - INFO - Total PnL: 436.000000
+2026-02-23 14:28:36 - root - INFO - Avg PnL per trade: 1.000000
+2026-02-23 14:28:36 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:29:55 - binance_api - INFO - Time offset synced: -90ms
+2026-02-23 14:29:55 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:29:55 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:29:55 - root - INFO - Fetching BTCUSDT 1m data from 2023-06-30 00:00:00 to 2023-12-31 00:00:00
+2026-02-23 14:30:44 - root - INFO - Backtest complete
+2026-02-23 14:30:44 - root - INFO - Total trades: 330
+2026-02-23 14:30:44 - root - INFO - Win rate: 100.00%
+2026-02-23 14:30:44 - root - INFO - Total PnL: 330.000000
+2026-02-23 14:30:44 - root - INFO - Avg PnL per trade: 1.000000
+2026-02-23 14:30:44 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:33:40 - binance_api - INFO - Time offset synced: -143ms
+2026-02-23 14:33:40 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:33:40 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:33:40 - root - INFO - Fetching BTCUSDT 1m data from 2026-01-01 00:00:00 to 2026-05-31 00:00:00
+2026-02-23 14:33:54 - root - INFO - Backtest complete
+2026-02-23 14:33:54 - root - INFO - Total trades: 66
+2026-02-23 14:33:54 - root - INFO - Win rate: 100.00%
+2026-02-23 14:33:54 - root - INFO - Total PnL: 66.000000
+2026-02-23 14:33:54 - root - INFO - Avg PnL per trade: 1.000000
+2026-02-23 14:33:54 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:41:34 - binance_api - INFO - Time offset synced: -56ms
+2026-02-23 14:41:34 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:41:34 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:41:34 - root - INFO - Fetching BTCUSDT 1m data from 2026-01-01 00:00:00 to 2026-05-31 00:00:00
+2026-02-23 14:41:50 - root - INFO - Backtest complete
+2026-02-23 14:41:50 - root - INFO - Total trades: 87
+2026-02-23 14:41:50 - root - INFO - Win rate: 100.00%
+2026-02-23 14:41:50 - root - INFO - Total PnL: 87.000000
+2026-02-23 14:41:50 - root - INFO - Avg PnL per trade: 1.000000
+2026-02-23 14:41:50 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:42:59 - binance_api - INFO - Time offset synced: -149ms
+2026-02-23 14:42:59 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:42:59 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:42:59 - root - INFO - Fetching BTCUSDT 1m data from 2025-01-01 00:00:00 to 2025-06-30 00:00:00
+2026-02-23 14:43:42 - root - INFO - Backtest complete
+2026-02-23 14:43:42 - root - INFO - Total trades: 219
+2026-02-23 14:43:42 - root - INFO - Win rate: 100.00%
+2026-02-23 14:43:42 - root - INFO - Total PnL: 219.000000
+2026-02-23 14:43:42 - root - INFO - Avg PnL per trade: 1.000000
+2026-02-23 14:43:42 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:46:01 - binance_api - INFO - Time offset synced: -154ms
+2026-02-23 14:46:01 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:46:01 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:46:01 - root - INFO - Fetching BTCUSDT 1m data from 2025-01-01 00:00:00 to 2025-06-30 00:00:00
+2026-02-23 14:46:48 - root - INFO - Backtest complete
+2026-02-23 14:46:48 - root - INFO - Total trades: 182
+2026-02-23 14:46:48 - root - INFO - Win rate: 100.00%
+2026-02-23 14:46:48 - root - INFO - Total PnL: 182.000000
+2026-02-23 14:46:48 - root - INFO - Avg PnL per trade: 1.000000
+2026-02-23 14:46:48 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:48:25 - binance_api - INFO - Time offset synced: -82ms
+2026-02-23 14:48:25 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:48:25 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:48:25 - root - INFO - Fetching BTCUSDT 1m data from 2025-01-01 00:00:00 to 2025-06-30 00:00:00
+2026-02-23 14:49:08 - root - INFO - Backtest complete
+2026-02-23 14:49:08 - root - INFO - Total trades: 345
+2026-02-23 14:49:08 - root - INFO - Win rate: 100.00%
+2026-02-23 14:49:08 - root - INFO - Total PnL: 207.000000
+2026-02-23 14:49:08 - root - INFO - Avg PnL per trade: 0.600000
+2026-02-23 14:49:08 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:49:59 - binance_api - INFO - Time offset synced: -79ms
+2026-02-23 14:49:59 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:49:59 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:49:59 - root - INFO - Fetching BTCUSDT 1m data from 2025-01-01 00:00:00 to 2025-06-30 00:00:00
+2026-02-23 14:50:47 - root - INFO - Backtest complete
+2026-02-23 14:50:47 - root - INFO - Total trades: 168
+2026-02-23 14:50:47 - root - INFO - Win rate: 100.00%
+2026-02-23 14:50:47 - root - INFO - Total PnL: 201.600000
+2026-02-23 14:50:47 - root - INFO - Avg PnL per trade: 1.200000
+2026-02-23 14:50:47 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:51:30 - binance_api - INFO - Time offset synced: -167ms
+2026-02-23 14:51:30 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:51:30 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:51:30 - root - INFO - Fetching BTCUSDT 1m data from 2025-01-01 00:00:00 to 2025-06-30 00:00:00
+2026-02-23 14:52:13 - root - INFO - Backtest complete
+2026-02-23 14:52:13 - root - INFO - Total trades: 219
+2026-02-23 14:52:13 - root - INFO - Win rate: 100.00%
+2026-02-23 14:52:13 - root - INFO - Total PnL: 219.000000
+2026-02-23 14:52:13 - root - INFO - Avg PnL per trade: 1.000000
+2026-02-23 14:52:13 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:53:27 - binance_api - INFO - Time offset synced: -291ms
+2026-02-23 14:53:27 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:53:27 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:53:27 - root - INFO - Fetching BTCUSDT 5m data from 2025-01-01 00:00:00 to 2025-06-30 00:00:00
+2026-02-23 14:53:38 - root - INFO - Backtest complete
+2026-02-23 14:53:38 - root - INFO - Total trades: 95
+2026-02-23 14:53:38 - root - INFO - Win rate: 100.00%
+2026-02-23 14:53:38 - root - INFO - Total PnL: 209.000000
+2026-02-23 14:53:38 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-23 14:53:38 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:55:25 - binance_api - INFO - Time offset synced: -227ms
+2026-02-23 14:55:25 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:55:25 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:55:25 - root - INFO - Fetching BTCUSDT 15m data from 2025-01-01 00:00:00 to 2025-06-30 00:00:00
+2026-02-23 14:55:29 - root - INFO - Backtest complete
+2026-02-23 14:55:29 - root - INFO - Total trades: 19
+2026-02-23 14:55:29 - root - INFO - Win rate: 100.00%
+2026-02-23 14:55:29 - root - INFO - Total PnL: 190.000000
+2026-02-23 14:55:29 - root - INFO - Avg PnL per trade: 10.000000
+2026-02-23 14:55:29 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:57:23 - binance_api - INFO - Time offset synced: -137ms
+2026-02-23 14:57:23 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:57:23 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:57:23 - root - INFO - Fetching BTCUSDT 5m data from 2025-01-01 00:00:00 to 2025-06-30 00:00:00
+2026-02-23 14:57:33 - root - INFO - Backtest complete
+2026-02-23 14:57:33 - root - INFO - Total trades: 95
+2026-02-23 14:57:33 - root - INFO - Win rate: 100.00%
+2026-02-23 14:57:33 - root - INFO - Total PnL: 209.000000
+2026-02-23 14:57:33 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-23 14:57:33 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:57:55 - binance_api - INFO - Time offset synced: -144ms
+2026-02-23 14:57:55 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:57:55 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:57:55 - root - INFO - Fetching BTCUSDT 5m data from 2025-01-01 00:00:00 to 2025-06-30 00:00:00
+2026-02-23 14:58:03 - root - INFO - Backtest complete
+2026-02-23 14:58:03 - root - INFO - Total trades: 94
+2026-02-23 14:58:03 - root - INFO - Win rate: 100.00%
+2026-02-23 14:58:03 - root - INFO - Total PnL: 206.800000
+2026-02-23 14:58:03 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-23 14:58:03 - root - INFO - Saved trades to trades.csv
+2026-02-23 14:59:30 - binance_api - INFO - Time offset synced: -172ms
+2026-02-23 14:59:30 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 14:59:30 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 14:59:30 - root - INFO - Fetching BTCUSDT 5m data from 2026-02-01 00:00:00 to 2026-06-30 00:00:00
+2026-02-23 14:59:33 - root - INFO - Backtest complete
+2026-02-23 14:59:33 - root - INFO - Total trades: 16
+2026-02-23 14:59:33 - root - INFO - Win rate: 100.00%
+2026-02-23 14:59:33 - root - INFO - Total PnL: 35.200000
+2026-02-23 14:59:33 - root - INFO - Avg PnL per trade: 2.200000
+2026-02-23 14:59:33 - root - INFO - Saved trades to trades.csv
+2026-02-23 15:00:31 - binance_api - INFO - Time offset synced: -372ms
+2026-02-23 15:00:31 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-02-23 15:00:31 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-02-23 15:00:31 - root - INFO - Fetching BTCUSDT 1m data from 2026-02-01 00:00:00 to 2026-06-30 00:00:00
+2026-02-23 15:00:39 - root - INFO - Backtest complete
+2026-02-23 15:00:39 - root - INFO - Total trades: 33
+2026-02-23 15:00:39 - root - INFO - Win rate: 100.00%
+2026-02-23 15:00:39 - root - INFO - Total PnL: 33.000000
+2026-02-23 15:00:39 - root - INFO - Avg PnL per trade: 1.000000
+2026-02-23 15:00:39 - root - INFO - Saved trades to trades.csv
+2026-03-05 16:05:55 - binance_api - INFO - Time offset synced: -197ms
+2026-03-05 16:05:55 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-03-05 16:05:55 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-03-05 16:05:55 - root - INFO - Fetching BTCUSDT 5m data from 2026-01-01 00:00:00 to 2026-06-30 00:00:00
+2026-03-05 16:06:00 - root - INFO - Backtest complete
+2026-03-05 16:06:00 - root - INFO - Total trades: 11
+2026-03-05 16:06:00 - root - INFO - Win rate: 100.00%
+2026-03-05 16:06:00 - root - INFO - Total PnL: 24.200000
+2026-03-05 16:06:00 - root - INFO - Avg PnL per trade: 2.200000
+2026-03-05 16:06:00 - root - INFO - Saved trades to trades.csv
+2026-03-05 16:07:12 - binance_api - INFO - Time offset synced: -149ms
+2026-03-05 16:07:12 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-03-05 16:07:12 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-03-05 16:07:12 - root - INFO - Fetching BTCUSDT 5m data from 2026-01-01 00:00:00 to 2026-06-30 00:00:00
+2026-03-05 16:07:16 - root - INFO - Backtest complete
+2026-03-05 16:07:16 - root - INFO - Total trades: 18
+2026-03-05 16:07:16 - root - INFO - Win rate: 100.00%
+2026-03-05 16:07:16 - root - INFO - Total PnL: 79.200000
+2026-03-05 16:07:16 - root - INFO - Avg PnL per trade: 4.400000
+2026-03-05 16:07:16 - root - INFO - Saved trades to trades.csv
+2026-03-05 16:07:59 - binance_api - INFO - Time offset synced: -193ms
+2026-03-05 16:07:59 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-03-05 16:07:59 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-03-05 16:07:59 - root - INFO - Fetching BTCUSDT 5m data from 2026-02-01 00:00:00 to 2026-06-30 00:00:00
+2026-03-05 16:08:02 - root - INFO - Backtest complete
+2026-03-05 16:08:02 - root - INFO - Total trades: 17
+2026-03-05 16:08:02 - root - INFO - Win rate: 100.00%
+2026-03-05 16:08:02 - root - INFO - Total PnL: 74.800000
+2026-03-05 16:08:02 - root - INFO - Avg PnL per trade: 4.400000
+2026-03-05 16:08:02 - root - INFO - Saved trades to trades.csv
+2026-03-05 16:08:25 - binance_api - INFO - Time offset synced: -272ms
+2026-03-05 16:08:25 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-03-05 16:08:25 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-03-05 16:08:25 - root - INFO - Fetching BTCUSDT 5m data from 2025-01-01 00:00:00 to 2025-12-31 00:00:00
+2026-03-05 16:08:44 - root - INFO - Backtest complete
+2026-03-05 16:08:44 - root - INFO - Total trades: 118
+2026-03-05 16:08:44 - root - INFO - Win rate: 100.00%
+2026-03-05 16:08:44 - root - INFO - Total PnL: 519.200000
+2026-03-05 16:08:44 - root - INFO - Avg PnL per trade: 4.400000
+2026-03-05 16:08:44 - root - INFO - Saved trades to trades.csv
+2026-03-05 16:09:32 - binance_api - INFO - Time offset synced: -198ms
+2026-03-05 16:09:32 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-03-05 16:09:32 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-03-05 16:09:32 - root - INFO - Fetching BTCUSDT 5m data from 2025-01-01 00:00:00 to 2025-12-31 00:00:00
+2026-03-05 16:09:50 - root - INFO - Backtest complete
+2026-03-05 16:09:50 - root - INFO - Total trades: 112
+2026-03-05 16:09:50 - root - INFO - Win rate: 100.00%
+2026-03-05 16:09:50 - root - INFO - Total PnL: 492.800000
+2026-03-05 16:09:50 - root - INFO - Avg PnL per trade: 4.400000
+2026-03-05 16:09:50 - root - INFO - Saved trades to trades.csv
+2026-03-05 16:10:23 - binance_api - INFO - Time offset synced: -113ms
+2026-03-05 16:10:23 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-03-05 16:10:23 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-03-05 16:10:23 - root - INFO - Fetching BTCUSDT 5m data from 2024-01-01 00:00:00 to 2024-12-31 00:00:00
+2026-03-05 16:10:43 - root - INFO - Backtest complete
+2026-03-05 16:10:43 - root - INFO - Total trades: 211
+2026-03-05 16:10:43 - root - INFO - Win rate: 100.00%
+2026-03-05 16:10:43 - root - INFO - Total PnL: 928.400000
+2026-03-05 16:10:43 - root - INFO - Avg PnL per trade: 4.400000
+2026-03-05 16:10:43 - root - INFO - Saved trades to trades.csv
+2026-03-05 16:11:07 - binance_api - INFO - Time offset synced: -199ms
+2026-03-05 16:11:07 - binance_api - INFO - Connected to Binance Futures Mainnet
+2026-03-05 16:11:07 - binance_api - INFO - Futures API URL: https://fapi.binance.com/fapi
+2026-03-05 16:11:07 - root - INFO - Fetching BTCUSDT 5m data from 2024-01-01 00:00:00 to 2024-12-31 00:00:00
+2026-03-05 16:11:30 - root - INFO - Backtest complete
+2026-03-05 16:11:30 - root - INFO - Total trades: 213
+2026-03-05 16:11:30 - root - INFO - Win rate: 100.00%
+2026-03-05 16:11:30 - root - INFO - Total PnL: 937.200000
+2026-03-05 16:11:30 - root - INFO - Avg PnL per trade: 4.400000
+2026-03-05 16:11:30 - root - INFO - Saved trades to trades.csv
