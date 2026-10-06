@@ -1,6 +1,6 @@
 # Trading Bot Configuration
-BINANCE_API_KEY = "hgrerh"
-BINANCE_API_SECRET = "rgrgrhgr"
+BINANCE_API_KEY = ""
+BINANCE_API_SECRET = ""
 
 # Deployment Mode
 DEMO_MODE = False  # Set to True for Binance Testnet/Demo, False for Live Trading
@@ -29,8 +29,8 @@ LEVERAGE = 4
 
 # Telegram Notifications
 TELEGRAM_ENABLED = True
-TELEGRAM_BOT_TOKEN = "geger"
-TELEGRAM_CHAT_ID = "egrg"
+TELEGRAM_BOT_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
 
 # Logging
 LOG_FILE = "trading_bot.log"
